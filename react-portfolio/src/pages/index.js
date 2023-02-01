@@ -47,7 +47,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl pt-10 text-center">Career.Path</h3>
-            <p className="text-md py-5 leading-8 text-gray-200">
+            <p className="text-center text-md py-5 leading-8 text-gray-200">
               Current student working part-time. Check out my projects to see
               what I&apos;m all about.
             </p>
@@ -146,7 +146,7 @@ export default function Home() {
                 </TimelineSeparator>
                 <TimelineContent>Graduate Computer Science</TimelineContent>
               </TimelineItem>
-              
+
             </Timeline>
           </div>
         </section>
