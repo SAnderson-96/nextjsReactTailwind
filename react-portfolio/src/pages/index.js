@@ -27,7 +27,7 @@ export default function Home() {
             <h3 className="text-2xl py-2">Full-Stack Software Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-200">
               Current student working part-time. Check out my projects to see
-              what I'm all about.
+              what I&apos;m all about.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-blue-400">
@@ -48,7 +48,7 @@ export default function Home() {
             <h3 className="text-3xl pt-10 text-center">Career.Path</h3>
             <p className="text-md py-5 leading-8 text-gray-200">
               Current student working part-time. Check out my projects to see
-              what I'm all about.
+              what I&apos;m all about.
             </p>
           </div>
           <div>

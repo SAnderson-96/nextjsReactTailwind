@@ -14,7 +14,6 @@ export default function Projects(){
       </Head>
       <main className="px-10">
           <Navbar/>
-
         <section>
         <div>
             <div className="text-center shadow-xl shadow-teal-800 p-10 rounded-xl my-10">
