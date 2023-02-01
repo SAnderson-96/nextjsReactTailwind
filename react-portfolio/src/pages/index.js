@@ -52,7 +52,7 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <div className="text-center shadow-xl shadow-teal-800 p-10 rounded-xl my-10">
+            <div className="text-center drop-shadow-[0_0px_5px_rgba(255,255,255,0.33)] shadow-lg shadow-teal-800 p-10 rounded-xl my-10">
               <Image
                 className="mx-auto"
                 src={design}
@@ -73,7 +73,7 @@ export default function Home() {
               <p className="text-gray-200 py-1">Android Studio</p>
             </div>
 
-            <div className="text-center shadow-xl shadow-teal-800 p-10 rounded-xl my-10">
+            <div className="text-center drop-shadow-[0_0px_5px_rgba(255,255,255,0.33)] shadow-xl shadow-teal-800 p-10 rounded-xl my-10">
               <Image
                 className="mx-auto"
                 src={design}
@@ -95,7 +95,7 @@ export default function Home() {
               <p className="text-gray-200 py-1">Android Studio</p>
             </div>
 
-            <div className="text-center shadow-xl shadow-teal-800 p-10 rounded-xl my-10">
+            <div className="text-center drop-shadow-[0_0px_5px_rgba(255,255,255,0.33)] shadow-xl shadow-teal-800 p-10 rounded-xl my-10">
               <Image
                 className="mx-auto"
                 src={design}

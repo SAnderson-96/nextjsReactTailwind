@@ -21,11 +21,11 @@ export default function Navbar(){
         </a>
       </li>
       <li>
-        <ActiveLink className="bg-gradient-to-r from-red-400 to-cyan-500 border-none px-4 py-2 rounded-md ml-4"
+        <a className="bg-gradient-to-r from-red-400 to-cyan-500 border-none px-4 py-2 rounded-md ml-4"
           href="#">
         Projects
-        </ActiveLink>
+        </a>
       </li>
     </ul>
-  </nav>)
+  </nav>);
 }
