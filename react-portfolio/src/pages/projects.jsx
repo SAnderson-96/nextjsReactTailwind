@@ -1,4 +1,7 @@
 import Navbar from "@/components/navbar";
+import Head from "next/head";
+import Image from "next/image";
+import design from "../../public/design.png";
 
 export default function Projects(){
     return(
