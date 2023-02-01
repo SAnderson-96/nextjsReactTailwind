@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
+import { Timeline, TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineOppositeContent, TimelineSeparator } from "@mui/lab";
 
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
@@ -21,7 +22,7 @@ export default function Home() {
       </Head>
       <main className="px-10">
         <section className="min-h-screen">
-          <Navbar/>
+          <Navbar />
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-red-400">Samuel Anderson</h2>
             <h3 className="text-2xl py-2">Full-Stack Software Developer</h3>
@@ -52,70 +53,101 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <div className="text-center drop-shadow-[0_0px_5px_rgba(255,255,255,0.33)] shadow-lg shadow-teal-800 p-10 rounded-xl my-10">
-              <Image
-                className="mx-auto"
-                src={design}
-                width={100}
-                height={100}
-              />
-              <h3 className="text-lg font-medium">Applications</h3>
-              <p className="pt-4 pb-2">
-                I create full-stack web <span className=" text-teal-700">//</span> desktop{" "}
-                <span className=" text-teal-700">//</span> mobile applications
-              </p>
-              <h4>Tools I Use:</h4>
-              <p className="text-gray-200 py-1">ASP.NET</p>
-              <p className="text-gray-200 py-1">React</p>
-              <p className="text-gray-200 py-1">Angular</p>
-              <p className="text-gray-200 py-1">Javascript</p>
-              <p className="text-gray-200 py-1">.NET MAUI</p>
-              <p className="text-gray-200 py-1">Android Studio</p>
-            </div>
+            <Timeline position="alternate">
 
-            <div className="text-center drop-shadow-[0_0px_5px_rgba(255,255,255,0.33)] shadow-xl shadow-teal-800 p-10 rounded-xl my-10">
-              <Image
-                className="mx-auto"
-                src={design}
-                width={100}
-                height={100}
-              />
-              <h3 className="text-lg font-medium">Beautiful Designs</h3>
-              <p className="pt-4 pb-2">
-                I create full-stack web
-                <span className=" text-teal-700">//</span> desktop{" "}
-                <span className=" text-teal-700">//</span> mobile applications
-              </p>
-              <h4>Tools I Use</h4>
-              <p className="text-gray-200 py-1">ASP.NET</p>
-              <p className="text-gray-200 py-1">React</p>
-              <p className="text-gray-200 py-1">Angular</p>
-              <p className="text-gray-200 py-1">Javascript</p>
-              <p className="text-gray-200 py-1">.NET MAUI</p>
-              <p className="text-gray-200 py-1">Android Studio</p>
-            </div>
+              <TimelineItem>
+              <TimelineOppositeContent color="#139E8F" variant="h6">F-2020</TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot color="secondary" variant="outlined" />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>Computer Science Start</TimelineContent>
+              </TimelineItem>
 
-            <div className="text-center drop-shadow-[0_0px_5px_rgba(255,255,255,0.33)] shadow-xl shadow-teal-800 p-10 rounded-xl my-10">
-              <Image
-                className="mx-auto"
-                src={design}
-                width={100}
-                height={100}
-              />
-              <h3 className="text-lg font-medium">Beautiful Designs</h3>
-              <p className="pt-4 pb-2">
-                I create full-stack web
-                <span className=" text-teal-700">//</span> desktop{" "}
-                <span className=" text-teal-700">//</span> mobile applications
-              </p>
-              <h4>Tools I Use</h4>
-              <p className="text-gray-200 py-1">ASP.NET</p>
-              <p className="text-gray-200 py-1">React</p>
-              <p className="text-gray-200 py-1">Angular</p>
-              <p className="text-gray-200 py-1">Javascript</p>
-              <p className="text-gray-200 py-1">.NET MAUI</p>
-              <p className="text-gray-200 py-1">Android Studio</p>
-            </div>
+              <TimelineItem>
+                <TimelineSeparator>
+                <TimelineDot color="grey"/>
+                  <TimelineConnector/>
+                </TimelineSeparator>
+                <TimelineContent></TimelineContent>
+              </TimelineItem>
+
+              <TimelineItem>
+              <TimelineOppositeContent color="#139E8F" variant="h6">F-2021</TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot color="primary" />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>Pokemon WPF Application</TimelineContent>
+              </TimelineItem>
+
+              <TimelineItem>
+                <TimelineSeparator>
+                <TimelineDot color="grey"/>
+                  <TimelineConnector/>
+                </TimelineSeparator>
+                <TimelineContent></TimelineContent>
+              </TimelineItem>
+
+              <TimelineItem>
+              <TimelineOppositeContent color="#139E8F" variant="h6">W-2021</TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot color="primary"/>
+                  <TimelineConnector/>
+                </TimelineSeparator>
+                <TimelineContent>DND Website</TimelineContent>
+              </TimelineItem>
+
+              <TimelineItem>
+                <TimelineSeparator>
+                <TimelineDot color="grey"/>
+                  <TimelineConnector/>
+                </TimelineSeparator>
+                <TimelineContent></TimelineContent>
+              </TimelineItem>
+
+              <TimelineItem>
+              <TimelineOppositeContent color="#139E8F" variant="h6">F-2022</TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot color="primary"/>
+                  <TimelineConnector/>
+                </TimelineSeparator>
+                <TimelineContent>Pokemon Tower Defense</TimelineContent>
+              </TimelineItem>
+
+              <TimelineItem>
+                <TimelineSeparator>
+                <TimelineDot color="grey"/>
+                  <TimelineConnector/>
+                </TimelineSeparator>
+                <TimelineContent></TimelineContent>
+              </TimelineItem>
+
+              <TimelineItem>
+              <TimelineOppositeContent color="#139E8F" variant="h6">W-2023</TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot color="success"/>
+                  <TimelineConnector/>
+                </TimelineSeparator>
+                <TimelineContent>Internship @ CAE</TimelineContent>
+              </TimelineItem>
+
+              <TimelineItem>
+                <TimelineSeparator>
+                <TimelineDot color="grey"/>
+                  <TimelineConnector/>
+                </TimelineSeparator>
+                <TimelineContent></TimelineContent>
+              </TimelineItem>
+
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot color="warning" variant="outlined" />
+                </TimelineSeparator>
+                <TimelineContent>Graduate Computer Science</TimelineContent>
+              </TimelineItem>
+              
+            </Timeline>
           </div>
         </section>
       </main>
