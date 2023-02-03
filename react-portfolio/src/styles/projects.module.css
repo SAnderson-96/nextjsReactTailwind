@@ -1,0 +1,16 @@
+.childrenChangeOnHoverPokemon:hover > *{
+    color: #F44336;
+    transition: 0.4s;
+}
+.childrenChangeOnHoverDnd:hover > *{
+    color: #90A4AE;
+    transition: 0.4s;
+}
+.childrenChangeOnHoverTower:hover > *{
+    color: #F44336;
+    transition: 0.4s;
+}
+.childrenChangeOnHoverFarm:hover > *{
+    color: #388E3C;
+    transition: 0.4s;
+}
