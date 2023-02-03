@@ -1,14 +1,23 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
-import { Timeline, TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineOppositeContent, TimelineSeparator } from "@mui/lab";
-
-import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
+import Link from "next/link";
+import {
+  Timeline,
+  TimelineConnector,
+  TimelineContent,
+  TimelineDot,
+  TimelineItem,
+  TimelineOppositeContent,
+  TimelineSeparator,
+} from "@mui/lab";
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillGift, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
 import deved from "../../public/dev-ed-wave.png";
-import design from "../../public/design.png";
+
 import code from "../../public/code.png";
 import consulting from "../../public/consulting.png";
 import Navbar from "@/components/navbar";
+import styles from "../styles/Home.module.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -32,12 +41,19 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-blue-400">
-            <AiFillLinkedin
+            <Link
               href="https://www.linkedin.com/in/samuel-anderson-a26905206/"
               target="_blank"
-              className="cursor-pointer"
-            />
-            <AiFillTwitterCircle className="cursor-pointer" />
+            >
+              <AiFillLinkedin className={styles.clickableIcon} />
+            </Link>
+
+            <Link href="https://twitter.com" target="_blank">
+              <AiFillTwitterCircle className={styles.clickableIcon} />
+            </Link>
+            <Link href="https://github.com/SAnderson-96" target="_blank">
+              <AiFillGithub className={styles.clickableIcon}/>
+            </Link>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
             <Image src={deved} layout="fill" objectFit="cover" />
@@ -54,9 +70,10 @@ export default function Home() {
           </div>
           <div>
             <Timeline position="alternate">
-
               <TimelineItem>
-              <TimelineOppositeContent color="#139E8F" variant="h6">F-2020</TimelineOppositeContent>
+                <TimelineOppositeContent color="#139E8F" variant="h6">
+                  F-2020
+                </TimelineOppositeContent>
                 <TimelineSeparator>
                   <TimelineDot color="secondary" variant="outlined" />
                   <TimelineConnector />
@@ -66,76 +83,84 @@ export default function Home() {
 
               <TimelineItem>
                 <TimelineSeparator>
-                <TimelineDot color="grey"/>
-                  <TimelineConnector/>
+                  <TimelineDot color="grey" />
+                  <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
-              <TimelineOppositeContent color="#139E8F" variant="h6">F-2021</TimelineOppositeContent>
+                <TimelineOppositeContent color="#139E8F" variant="h6">
+                  F-2021
+                </TimelineOppositeContent>
                 <TimelineSeparator>
                   <TimelineDot color="primary" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent>Pokemon WPF Application</TimelineContent>
+                <TimelineContent><Link className={styles.linkText} href="/pokemon-wpf">Pokemon WPF Application</Link></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
                 <TimelineSeparator>
-                <TimelineDot color="grey"/>
-                  <TimelineConnector/>
+                  <TimelineDot color="grey" />
+                  <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
-              <TimelineOppositeContent color="#139E8F" variant="h6">W-2021</TimelineOppositeContent>
+                <TimelineOppositeContent color="#139E8F" variant="h6">
+                  W-2021
+                </TimelineOppositeContent>
                 <TimelineSeparator>
-                  <TimelineDot color="primary"/>
-                  <TimelineConnector/>
+                  <TimelineDot color="primary" />
+                  <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent>DND Website</TimelineContent>
+                <TimelineContent><Link className={styles.linkText} href="/dnd">DND Website</Link></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
                 <TimelineSeparator>
-                <TimelineDot color="grey"/>
-                  <TimelineConnector/>
-                </TimelineSeparator>
-                <TimelineContent></TimelineContent>
-              </TimelineItem>
-
-              <TimelineItem>
-              <TimelineOppositeContent color="#139E8F" variant="h6">F-2022</TimelineOppositeContent>
-                <TimelineSeparator>
-                  <TimelineDot color="primary"/>
-                  <TimelineConnector/>
-                </TimelineSeparator>
-                <TimelineContent>Pokemon Tower Defense</TimelineContent>
-              </TimelineItem>
-
-              <TimelineItem>
-                <TimelineSeparator>
-                <TimelineDot color="grey"/>
-                  <TimelineConnector/>
+                  <TimelineDot color="grey" />
+                  <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
-              <TimelineOppositeContent color="#139E8F" variant="h6">W-2023</TimelineOppositeContent>
+                <TimelineOppositeContent color="#139E8F" variant="h6">
+                  F-2022
+                </TimelineOppositeContent>
                 <TimelineSeparator>
-                  <TimelineDot color="success"/>
-                  <TimelineConnector/>
+                  <TimelineDot color="primary" />
+                  <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent>Internship @ CAE</TimelineContent>
+                <TimelineContent><Link className={styles.linkText} href="/">Pokemon Tower Defense</Link></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
                 <TimelineSeparator>
-                <TimelineDot color="grey"/>
-                  <TimelineConnector/>
+                  <TimelineDot color="grey" />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent></TimelineContent>
+              </TimelineItem>
+
+              <TimelineItem>
+                <TimelineOppositeContent color="#139E8F" variant="h6">
+                  W-2023
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot color="success" />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent><Link className={styles.linkText} href="/">Internship</Link></TimelineContent>
+              </TimelineItem>
+
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot color="grey" />
+                  <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent></TimelineContent>
               </TimelineItem>
@@ -146,7 +171,6 @@ export default function Home() {
                 </TimelineSeparator>
                 <TimelineContent>Graduate Computer Science</TimelineContent>
               </TimelineItem>
-
             </Timeline>
           </div>
         </section>

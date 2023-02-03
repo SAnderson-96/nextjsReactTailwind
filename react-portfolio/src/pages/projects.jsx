@@ -2,6 +2,8 @@ import Navbar from "@/components/navbar";
 import Head from "next/head";
 import Image from "next/image";
 import design from "../../public/design.png";
+import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
 export default function Projects(){
     return(
@@ -23,7 +25,7 @@ export default function Projects(){
                 width={100}
                 height={100}
               />
-              <h3 className="text-lg font-medium">Projects Page!</h3>
+              <h3 className="text-lg font-medium">Pokemon WPF</h3>
               <p className="pt-4 pb-2">
                 I create full-stack web <span className=" text-teal-700">//</span> desktop{" "}
                 <span className=" text-teal-700">//</span> mobile applications
@@ -34,6 +36,76 @@ export default function Projects(){
               <p className="text-gray-200 py-1">Angular</p>
               <p className="text-gray-200 py-1">Javascript</p>
               <p className="text-gray-200 py-1">.NET MAUI</p>
+              <p className="text-gray-200 py-1">Android Studio</p>
+            </div>
+          </div>
+
+          <div>
+            <div className="text-center shadow-xl shadow-teal-800 p-10 rounded-xl my-10">
+              <Image
+                className="mx-auto"
+                src={design}
+                width={100}
+                height={100}
+              />
+              <h3 className="text-lg font-medium">DND Web App</h3>
+              <p className="pt-4 pb-2">
+                I create full-stack web <span className=" text-teal-700">//</span> desktop{" "}
+                <span className=" text-teal-700">//</span> mobile applications
+              </p>
+              <h4>Tools I Use:</h4>
+              <p className="text-gray-200 py-1">ASP.NET</p>
+              <p className="text-gray-200 py-1">React</p>
+              <p className="text-gray-200 py-1">Angular</p>
+              <p className="text-gray-200 py-1">Javascript</p>
+              <p className="text-gray-200 py-1">.NET MAUI</p>
+              <p className="text-gray-200 py-1">Android Studio</p>
+            </div>
+          </div>
+
+          <div>
+            <div className="text-center shadow-xl shadow-teal-800 p-10 rounded-xl my-10">
+              <Image
+                className="mx-auto"
+                src={design}
+                width={100}
+                height={100}
+              />
+              <h3 className="text-lg font-medium">Pokemon Tower Defense</h3>
+              <p className="pt-4 pb-2">
+                I create full-stack web <span className=" text-teal-700">//</span> desktop{" "}
+                <span className=" text-teal-700">//</span> mobile applications
+              </p>
+              <h4>Tools I Use:</h4>
+              <p className="text-gray-200 py-1">ASP.NET</p>
+              <p className="text-gray-200 py-1">React</p>
+              <p className="text-gray-200 py-1">Angular</p>
+              <p className="text-gray-200 py-1">Javascript</p>
+              <p className="text-gray-200 py-1">.NET MAUI</p>
+              <p className="text-gray-200 py-1">Android Studio</p>
+            </div>
+          </div>
+
+          <div>
+            <div className="text-center shadow-xl shadow-teal-800 p-10 rounded-xl my-10">
+              <Image
+                className="mx-auto"
+                src={design}
+                width={100}
+                height={100}
+              />
+              <h3 className="text-lg font-medium">Farming Android Application</h3>
+              <p className="pt-4 pb-2">
+                I create full-stack web <span className=" text-teal-700">//</span> desktop{" "}
+                <span className=" text-teal-700">//</span> mobile applications
+              </p>
+              <h4>Tools I Used:</h4>
+              <p className="text-gray-200 py-1">Android Studio</p>
+              <p className="text-gray-200 py-1">Room</p>
+              <p className="text-gray-200 py-1">SQLite</p>
+              <p className="text-gray-200 py-1">Web Api Calls</p>
+              <Link href="https://square.github.io/picasso/" target="_blank"><p className="text-gray-200 py-1">Picasso</p>
+              </Link>
               <p className="text-gray-200 py-1">Android Studio</p>
             </div>
           </div>

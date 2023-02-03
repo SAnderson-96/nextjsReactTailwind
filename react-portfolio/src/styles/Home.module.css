@@ -17,6 +17,29 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
+.clickableIcon{
+  cursor: pointer;
+}
+.clickableIcon:hover{
+  background-color: #5FA5F9;
+  color: black;
+  border-radius: 0.5rem;
+}
+
+.linkText{
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  margin: auto;
+}
+.linkText:hover{
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  padding: 1rem;
+  
+  transition: all 1s ease-out;
+}
 
 .description a {
   display: flex;
