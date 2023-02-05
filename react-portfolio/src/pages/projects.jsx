@@ -8,6 +8,7 @@ import { CatchingPokemon } from "@mui/icons-material";
 import ShieldIcon from '@mui/icons-material/Shield';
 import {SiPokemon} from 'react-icons/si';
 import {GiFarmTractor} from 'react-icons/gi';
+import{AiOutlineTrophy} from 'react-icons/ai';
 
 export default function Projects() {
   return (
@@ -23,7 +24,7 @@ export default function Projects() {
         <section>
 
         <div>
-            <Link href="/dnd" className={styles.childrenChangeOnHoverTower}>
+            <Link href="/ptd" className={styles.childrenChangeOnHoverTower}>
             <div className='text-center shadow-xl shadow-teal-800 p-10 rounded-xl my-10 flex items-center justify-center h-96 flex-col'>
               <SiPokemon className="mx-auto text-3xl w-40 h-40"/>
               <h3 className='text-3xl font-bold'>Pokemon Tower Defense</h3>
@@ -65,6 +66,18 @@ export default function Projects() {
                     <h3 className='text-3xl font-bold'>Pokemon WPF</h3>
                     <p className='pt-4 pb-2 text-2xl font-medium'>
                       Full stack WPF application built with the fundamentals of OOP.
+                    </p>
+                  </div>
+            </Link>
+          </div>
+
+          <div>
+              <Link href="/" className={styles.childrenChangeOnHoverPokemon}>
+                <div className='text-center shadow-xl shadow-teal-800 p-10 rounded-xl my-10 flex items-center justify-center h-96 flex-col'>
+                    <AiOutlineTrophy className='mx-auto text-3xl w-20 h-20' />
+                    <h3 className='text-3xl font-bold'>Other Smaller Projects</h3>
+                    <p className='pt-4 pb-2 text-2xl font-medium'>
+                      Click to see smaller projects that further demonstrate my skillset.
                     </p>
                   </div>
             </Link>

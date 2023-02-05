@@ -32,11 +32,11 @@ export default function Home() {
       <main className="px-10">
         <section className="min-h-screen">
           <Navbar />
-          <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-red-400">Samuel Anderson</h2>
-            <h3 className="text-2xl py-2">Full-Stack Software Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-200">
-              Current student working part-time. Check out my projects to see
+          <div className="text-center p-5">
+            <h2 className="text-6xl text-center py-2 text-red-400 font-bold">Samuel Anderson</h2>
+            <h3 className="text-3xl font-medium py-2">Full-Stack Software Developer</h3>
+            <p className="text-lg font-medium py-5 leading-8 text-gray-200">
+              Current student working part-time. Check out my <Link href="/projects" className="underline hover:no-underline hover:text-red-400">projects</Link> to see
               what I&apos;m all about.
             </p>
           </div>
@@ -62,8 +62,8 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl pt-10 text-center">Career.Path</h3>
-            <p className="text-center text-md py-5 leading-8 text-gray-200">
+            <h3 className="text-5xl pt-10 font-medium text-center">Career.Path</h3>
+            <p className="text-center text-lg font-medium py-5 leading-8 text-gray-200">
               Current student working part-time. Check out my projects to see
               what I&apos;m all about.
             </p>
@@ -137,6 +137,28 @@ export default function Home() {
                 </TimelineSeparator>
                 <TimelineContent><Link className={styles.linkText} href="/">Pokemon Tower Defense</Link></TimelineContent>
               </TimelineItem>
+
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot color="grey" />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent></TimelineContent>
+              </TimelineItem>
+
+
+              <TimelineItem>
+                <TimelineOppositeContent color="#139E8F" variant="h6">
+                  F-2022
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot color="primary" />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent><Link className={styles.linkText} href="/">Android Farming Application</Link></TimelineContent>
+              </TimelineItem>
+
+
 
               <TimelineItem>
                 <TimelineSeparator>
