@@ -22,7 +22,7 @@ export default function Navbar(){
       </li>
       <li>
         <Link className="bg-gradient-to-r from-red-400 to-cyan-500 border-none px-4 py-2 rounded-md ml-4"
-          href="/projects">
+          href="/projects-scroll">
         Projects
         </Link>
       </li>

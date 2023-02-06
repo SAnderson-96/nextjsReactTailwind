@@ -29,14 +29,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="px-10">
-        <section className="min-h-screen">
+      <main className="px-10 no-scrollbar">
+        <section className="min-h-screen no-scrollbar">
           <Navbar />
           <div className="text-center p-5">
             <h2 className="text-6xl text-center py-2 text-red-400 font-bold">Samuel Anderson</h2>
             <h3 className="text-3xl font-medium py-2">Full-Stack Software Developer</h3>
             <p className="text-lg font-medium py-5 leading-8 text-gray-200">
-              Current student working part-time. Check out my <Link href="/projects" className="underline hover:no-underline hover:text-red-400">projects</Link> to see
+              Current student working part-time. Check out my <Link href="/projects-scroll" className="underline hover:no-underline hover:text-red-400">projects</Link> to see
               what I&apos;m all about.
             </p>
           </div>
