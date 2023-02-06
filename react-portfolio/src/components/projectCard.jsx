@@ -19,7 +19,7 @@ export default function ProjectCard({title, projectName, builtWith, data, start,
               <p className="font-bold mt-1 text-2xl">BUILT WITH</p>
               <div className="flex space-x-2 my-2">
                 {builtWith.map(logo=>(
-                        <Image src={logo} className="h-10 w-10 rounded-4" alt=""/>
+                        <Image key={logo} src={logo} className="h-10 w-10 rounded-4" alt=""/>
                         ))}
               </div>
               <p className="uppercase py-5 text-gray-300">Started {start} - Ended {end}.</p>
