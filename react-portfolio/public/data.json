@@ -1,0 +1,65 @@
+{
+    "projects": [
+        {
+            "name": "Dnd Character Creation Web App",
+            "builtWith": [
+                "JS",
+                "NodeJs",
+                "Github",
+                "HTML",
+                "CSS",
+                "Handlebars"
+            ],
+            "date": "May 2022",
+            "summaries": [
+                "Create/Edit/Delete your own dungeons and dragons characters",
+                "Keep track of your character by using the UI to edit the character sheet",
+                "View and add spells with the ability to filter based on parameters like class or race",
+                "And much more.."
+            ]
+        },
+        {
+            "name": "Pokemon Tower Defense",
+            "builtWith": [
+                "JS"
+            ],
+            "date": "December 2022",
+            "summaries": [
+                "Play a re-created from scratch Tower defense styled game with Pokemon",
+                "Catch new Pokemon and progress through the story to earn badges",
+                "Level up your Pokemon to teach them new moves",
+                "Built with a custom made game engine written in vanilla JavaScript",
+                "And much more.."
+            ]
+        },
+        {
+            "name": "Farming Android Application",
+            "builtWith": [
+                "Java",
+                "Kotlin",
+                "Android Studio"
+            ],
+            "date": "December 2022",
+            "summaries": [
+                "Keep track of all your seeds and plan out the planting season with a custom calculator to know how many seeds you'll need.",
+                "Built-in weather widget to see the days forecast",
+                "Take pictures and see your crops grow",
+                "Sell to your neighbors with the marketplace to buy and sell local produce"
+            ]
+        },
+        {
+            "name": "Pokemon WPF Storage PC",
+            "builtWith": [
+                "C#",
+                ".NET",
+                "Python"
+            ],
+            "date": "December 2021",
+            "summaries": [
+                "Store Pokemon just like in the game with the application.",
+                "See your box Pokemon and all their stats.",
+                "Decide wether or not your Pokemon are the rare shiny variant."
+            ]
+        }
+    ]
+}
