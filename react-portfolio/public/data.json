@@ -16,7 +16,8 @@
                 "Keep track of your character by using the UI to edit the character sheet",
                 "View and add spells with the ability to filter based on parameters like class or race",
                 "And much more.."
-            ]
+            ],
+            "image":"dnd"
         },
         {
             "name": "Pokemon Tower Defense",
@@ -30,7 +31,8 @@
                 "Level up your Pokemon to teach them new moves",
                 "Built with a custom made game engine written in vanilla JavaScript",
                 "And much more.."
-            ]
+            ],
+            "image":"ptd"
         },
         {
             "name": "Farming Android Application",
@@ -45,7 +47,8 @@
                 "Built-in weather widget to see the days forecast",
                 "Take pictures and see your crops grow",
                 "Sell to your neighbors with the marketplace to buy and sell local produce"
-            ]
+            ],
+            "image":"farming"
         },
         {
             "name": "Pokemon WPF Storage PC",
@@ -59,7 +62,8 @@
                 "Store Pokemon just like in the game with the application.",
                 "See your box Pokemon and all their stats.",
                 "Decide wether or not your Pokemon are the rare shiny variant."
-            ]
+            ],
+            "image":"wpf"
         }
     ]
 }
