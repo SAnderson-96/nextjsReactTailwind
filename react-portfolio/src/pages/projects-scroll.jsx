@@ -24,6 +24,7 @@ import javaIcon from "../../public/java.png";
 
 
 export default function ProjectsScroll() {
+  const config = require('../../public/data.json');
     return (
         <>
             <Head>
@@ -45,13 +46,10 @@ export default function ProjectsScroll() {
 
 
                     <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
-                      <ProjectCard title="Pokemon Tower Defense" start="November 2022" end="December 2022"
-                        builtWith={[jsIcon]}/>
-                      <ProjectCard title="Dnd Character Creation API/APP"
-                        builtWith={[jsIcon, githubIcon, nodeJS, cssIcon]}/>
-                      <ProjectCard title="Farming Android Application"
-                        builtWith={[androidStudioIcon, kotlinIcon, javaIcon]}/>
-                      <ProjectCard title="Pokemon WPF" builtWith={[csharpIcon, githubIcon]}/>
+                      {config.projects.map(project => (
+                        <ProjectCard title={project.name} date={project.date} builtWith={project.builtWith.map(icon => icon)}
+                        data={project.summaries}/>
+                      ))}
                     </div>
                   </div>
 

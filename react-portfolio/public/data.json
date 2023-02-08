@@ -3,12 +3,12 @@
         {
             "name": "Dnd Character Creation Web App",
             "builtWith": [
-                "JS",
-                "NodeJs",
-                "Github",
-                "HTML",
-                "CSS",
-                "Handlebars"
+                "/js-logo.png",
+                "/nodeJs.png",
+                "/github.png",
+                "/html.png",
+                "/css.svg",
+                "/handlebars.png"
             ],
             "date": "May 2022",
             "summaries": [
@@ -22,7 +22,7 @@
         {
             "name": "Pokemon Tower Defense",
             "builtWith": [
-                "JS"
+                "/js-logo.png"
             ],
             "date": "December 2022",
             "summaries": [
@@ -37,9 +37,9 @@
         {
             "name": "Farming Android Application",
             "builtWith": [
-                "Java",
-                "Kotlin",
-                "Android Studio"
+                "/java.png",
+                "/kotlin.svg",
+                "/androidStudio.png"
             ],
             "date": "December 2022",
             "summaries": [
@@ -53,9 +53,9 @@
         {
             "name": "Pokemon WPF Storage PC",
             "builtWith": [
-                "C#",
-                ".NET",
-                "Python"
+                "/csharp.svg",
+                "/dotnet.png",
+                "/python.svg"
             ],
             "date": "December 2021",
             "summaries": [
