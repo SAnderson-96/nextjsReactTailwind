@@ -17,7 +17,11 @@
                 "View and add spells with the ability to filter based on parameters like class or race",
                 "And much more.."
             ],
-            "image":"dnd"
+            "images":[
+                "/d20.png",
+                "/swordAndShield.png",
+                "/dragon.png"
+            ]
         },
         {
             "name": "Pokemon Tower Defense",
@@ -32,7 +36,12 @@
                 "Built with a custom made game engine written in vanilla JavaScript",
                 "And much more.."
             ],
-            "image":"ptd"
+            "images":[
+                "/pokeball.png",
+                "/bulbasaur.png",
+                "/pikachu.png",
+                "/pokemon-trainer.png"
+            ]
         },
         {
             "name": "Farming Android Application",
@@ -48,7 +57,11 @@
                 "Take pictures and see your crops grow",
                 "Sell to your neighbors with the marketplace to buy and sell local produce"
             ],
-            "image":"farming"
+            "images":[
+                "/tractor.png",
+                "/farming.png",
+                "planting.png"
+            ]
         },
         {
             "name": "Pokemon WPF Storage PC",
@@ -63,7 +76,76 @@
                 "See your box Pokemon and all their stats.",
                 "Decide wether or not your Pokemon are the rare shiny variant."
             ],
-            "image":"wpf"
+            "images":[
+                "/pokeball.png"
+            ]
+        }
+    ],
+    "skills":[
+        {
+            "name": "C#",
+            "image": "/csharp.svg",
+            "proficiency": "80"
+        },
+        {
+            "name": "git",
+            "image": "/git.png",
+            "proficiency": "70"
+        },
+        {
+            "name": "python",
+            "image": "/python.svg",
+            "proficiency": "60"
+        },
+        {
+            "name": "JavaScript",
+            "image": "/js-logo.png",
+            "proficiency": "80"
+        },
+        {
+            "name": "TypeScript",
+            "image": "/typescript.svg",
+            "proficiency": "50"
+        },
+        {
+            "name": "Kotlin",
+            "image": "/kotlin.svg",
+            "proficiency": "30"
+        },
+        {
+            "name": "Java",
+            "image": "/java.png",
+            "proficiency": "70"
+        },
+        {
+            "name": "HTML",
+            "image": "/html.png",
+            "proficiency": "90"
+        },
+        {
+            "name": "CSS",
+            "image": "/css.svg",
+            "proficiency": "60"
+        },
+        {
+            "name": ".NET",
+            "image": "/dotnet.png",
+            "proficiency": "80"
+        },
+        {
+            "name": "NodeJs",
+            "image": "/nodeJs.png",
+            "proficiency": "70"
+        },
+        {
+            "name": "Angular",
+            "image": "/angular.png",
+            "proficiency": "40"
+        },
+        {
+            "name": "React",
+            "image": "/react.svg",
+            "proficiency": "50"
         }
     ]
 }
