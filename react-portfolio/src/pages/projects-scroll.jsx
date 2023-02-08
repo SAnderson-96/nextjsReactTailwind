@@ -25,6 +25,8 @@ import javaIcon from "../../public/java.png";
 
 export default function ProjectsScroll() {
   const config = require('../../public/data.json');
+  let key = 0;
+  const keyS="Portfolio card "
     return (
         <>
             <Head>
@@ -47,7 +49,7 @@ export default function ProjectsScroll() {
 
                     <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
                       {config.projects.map(project => (
-                        <ProjectCard title={project.name} date={project.date} builtWith={project.builtWith.map(icon => icon)}
+                        <ProjectCard key={keyS + key++} title={project.name} date={project.date} builtWith={project.builtWith.map(icon => icon)}
                         data={project.summaries}/>
                       ))}
                     </div>

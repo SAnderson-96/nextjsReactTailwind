@@ -26,7 +26,7 @@ export default function ProjectCard({title, builtWith, data, date}){
               <div className="h-3/6 overfow-scroll no-scrollbar">
                 <ul className="list-disc space-y-4 ml-5 text-lg">
                   {data.map(summary =>(
-                    <li>{summary}</li>
+                    <li key={"li key "+ key++}>{summary}</li>
                   ))}
                 </ul>
               </div>
