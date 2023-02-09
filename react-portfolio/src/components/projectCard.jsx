@@ -3,7 +3,7 @@ import Image from "next/image";
 import jsImage from "../../public/js-logo.png";
 import deved from "../../public/dev-ed-wave.png";
 
-export default function ProjectCard({title, builtWith, data, date}){
+export default function ProjectCard({title, builtWith, data, date, avatar}){
   let key = 0;
   return(
           <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
@@ -11,7 +11,7 @@ export default function ProjectCard({title, builtWith, data, date}){
           cursor-pointer transition-opacity duration-200 overflow-hidden">
             <Image
               className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
-              src={deved} alt="avatar"
+              src={avatar} alt="avatar" width="128" height="128"
             />
 
             <div className="px-0 md:px-10">
@@ -26,7 +26,7 @@ export default function ProjectCard({title, builtWith, data, date}){
               <div className="h-3/6 overfow-scroll no-scrollbar">
                 <ul className="list-disc space-y-4 ml-5 text-lg">
                   {data.map(summary =>(
-                    <li key={"li key "+ key++}>{summary}</li>
+                    <li key={"liKey"+ key++}>{summary}</li>
                   ))}
                 </ul>
               </div>

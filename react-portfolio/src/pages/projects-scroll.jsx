@@ -50,7 +50,8 @@ export default function ProjectsScroll() {
                     <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
                       {config.projects.map(project => (
                         <ProjectCard key={keyS + key++} title={project.name} date={project.date} builtWith={project.builtWith.map(icon => icon)}
-                        data={project.summaries}/>
+                        data={project.summaries}
+                        avatar={project.images[Math.floor(Math.random()*project.images.length)]}/>
                       ))}
                     </div>
                   </div>
