@@ -1,0 +1,16 @@
+{
+  "name":"Pokemon Tower Defense",
+  "hero": "/ptd/ptd-home-screen-transparent.png",
+  "heroalt": "Pokemon Tower Defense Title Screen",
+  "features": [
+    {
+      "name": "Catch Pokemon and fight against a wide variety of ennemies on your quest to help Professor Oak."
+    },
+    {
+      "name": "Level up your Pokemon"
+    },
+    {
+      "name": "Have fun!"
+    }
+  ]
+}

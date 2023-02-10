@@ -2,8 +2,6 @@ import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import {Tooltip} from '@nextui-org/react';
-import jsImage from "../../public/js-logo.png";
-import deved from "../../public/dev-ed-wave.png";
 
 export default function ProjectCard({title, builtWith, data, date, avatar, link}) {
     let key = 0;

@@ -8,7 +8,8 @@ module.exports = {
       fontFamily: {
         burtons: "burtons",
         code: "code"
-      }
+      },
+      visibility: ["group-hover"],
     },
   },
   plugins: [

@@ -1,7 +1,4 @@
 import React from 'react';
-import Image from "next/image";
-import jsImage from "../../public/js-logo.png";
-import deved from "../../public/dev-ed-wave.png";
 import {motion} from "framer-motion";
 import Skill from "@/components/skill";
 

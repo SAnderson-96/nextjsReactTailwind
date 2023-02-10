@@ -22,7 +22,7 @@
         "/pikachu.png",
         "/pokemon-trainer.png"
       ],
-      "link":"/ptd"
+      "link": "/ptd"
     },
     {
       "name": "Dnd Character Creation Web App",
@@ -94,7 +94,7 @@
         "/farming.png",
         "/planting.png"
       ],
-      "link":"/farming"
+      "link": "/farming"
     },
     {
       "name": "Pokemon WPF Storage PC",
@@ -122,7 +122,7 @@
         "/pokeball.png",
         "/redOnComputer.png"
       ],
-      "link":"/pokemon-wpf"
+      "link": "/pokemon-wpf"
     },
     {
       "name": "This Website",
@@ -154,44 +154,45 @@
         "/resume.png",
         "/internet.png"
       ],
-      "link":"/pokemon-wpf"
-    },{
-    "name": "Other smaller projects",
-    "builtWith": [
-    {
-      "path": "/python.png",
-      "name": "Python3"
+      "link": "/pokemon-wpf"
     },
-      {
-        "path": "/tailwindcss.svg",
-        "name": "TailwindCss"
-      },
-      {
-        "path": "/tailwindcss.svg",
-        "name": "TailwindCss"
-      },
-      {
-        "path": "/tailwindcss.svg",
-        "name": "TailwindCss"
-      },
-      {
-        "path": "/tailwindcss.svg",
-        "name": "TailwindCss"
-      },
-      {
-        "path": "/tailwindcss.svg",
-        "name": "TailwindCss"
-      }
-    ],
-    "date": "Since 2020",
-    "summaries": [
-      "Check out other smaller projects built with a collection of different technologies and programming languages."
-    ],
-    "images": [
-      "/more.png"
-    ],
-    "link":"/more-projects"
-  }
+    {
+      "name": "Other smaller projects",
+      "builtWith": [
+        {
+          "path": "/python.png",
+          "name": "Python3"
+        },
+        {
+          "path": "/tailwindcss.svg",
+          "name": "TailwindCss"
+        },
+        {
+          "path": "/tailwindcss.svg",
+          "name": "TailwindCss"
+        },
+        {
+          "path": "/tailwindcss.svg",
+          "name": "TailwindCss"
+        },
+        {
+          "path": "/tailwindcss.svg",
+          "name": "TailwindCss"
+        },
+        {
+          "path": "/tailwindcss.svg",
+          "name": "TailwindCss"
+        }
+      ],
+      "date": "Since 2020",
+      "summaries": [
+        "Check out other smaller projects built with a collection of different technologies and programming languages."
+      ],
+      "images": [
+        "/more.png"
+      ],
+      "link": "/more-projects"
+    }
   ],
   "skills": [
     {
@@ -260,10 +261,10 @@
       "proficiency": "50"
     }
   ],
-  "otherProjects":[
+  "otherProjects": [
     {
       "name": "Python Keylogger",
-      "builtWith":[
+      "builtWith": [
         {
           "name": "Python",
           "path": "/python.png"
@@ -274,13 +275,13 @@
         "Send keystrokes to email or save to a local file.",
         "For educational purposes only!"
       ],
-      "date":"December 2022",
+      "date": "December 2022",
       "image": "/keyboard.png",
       "link": "https://github.com"
     },
     {
       "name": "Pong Class",
-      "builtWith":[
+      "builtWith": [
         {
           "name": "JavaScript",
           "path": "/js-logo.png"
@@ -290,13 +291,13 @@
         "Taught college students how to make a Pong game in JavaScript using the HTML canvas.",
         "Endorsed by teachers and the college."
       ],
-      "date":"Fall 2022",
+      "date": "Fall 2022",
       "image": "/pong.png",
       "link": "https://github.com"
     },
     {
       "name": "Algorithms",
-      "builtWith":[
+      "builtWith": [
         {
           "name": "Java",
           "path": "/java.png"
@@ -306,13 +307,13 @@
         "Re-created data stuctures and algorithms from scratch.",
         "Examples: Binary Search, Stacks, Queues, Linked Lists, Binary Search Trees, Double Linked Lists, etc."
       ],
-      "date":"Srping 2022",
+      "date": "Srping 2022",
       "image": "/neural.png",
       "link": "https://github.com"
     },
     {
       "name": "Flutter-Flame Demo",
-      "builtWith":[
+      "builtWith": [
         {
           "name": "Flutter",
           "path": "/flutter.png"
@@ -330,7 +331,7 @@
         "Re-created data stuctures and algorithms from scratch.",
         "Examples: Binary Search, Stacks, Queues, Linked Lists, Binary Search Trees, Double Linked Lists, etc."
       ],
-      "date":"Srping 2022",
+      "date": "Srping 2022",
       "image": "/neural.png",
       "link": "https://github.com"
     }
