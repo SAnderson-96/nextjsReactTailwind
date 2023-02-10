@@ -1,29 +1,42 @@
 import React from "react";
 import {motion} from "framer-motion";
-import tempLogo from "../../public/git.png";
 import Image from "next/image";
+import {Tooltip} from '@nextui-org/react';
 
-export default function Skill({directionLeft, logo}){
-  return (
-          <motion.div
+export default function Skill({directionLeft, logo, name, proficiency}) {
+    return (
+        <motion.div
             initial={{
-            x: directionLeft ? -200 : 200,
-              opacity:0,
+                x: directionLeft ? -300 : 300,
+                opacity: 0,
             }}
-            transition={{duration:1}}
-            whileInView={{opacity:1, x:0}}
+            transition={{duration: 1}}
+            whileInView={{opacity: 1, x: 0}}
             className="group relative flex cursor-pointer">
-            <Image
+            <Tooltip content={name}>
+                <div style={{
+                    display: "flex",
+                    justifyContent: "center"
+                }}>
+                    <div style={{position: "relative"}}>
+                        <Image
+                            src={logo} className="rounded-full border border-gray-500
+                        object-cover w-16 h-16 md:w-28 md:h-28 xl:w-32 xl:h-32
+              filter group-hover:grayscale transition duration-300 ease-in-out" alt={`logo for ${name}`}
+                          width={256} height={256} style={{objectFit: "contain"}}
+                        />
+                    </div>
 
-              src={tempLogo} className="rounded-full border border-gray-500 object-cover w-16 h-16 md:w-28 md:h-28 xl:w-32 xl:h-32
-              filter group-hover:grayscale transition duration-300 ease-in-out" alt=""/>
+                </div>
+            </Tooltip>
+
             <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out
             group-hover:bg-white h-16 w-16 xl:w-32 xl:h-32 md:w-28 md:h-28 rounded-full z-0">
-              <div className="flex items-center justify-center h-full">
-                <p className="text-3xl text-black opacity-100 font-bold">100%</p>
-              </div>
+                <div className="flex items-center justify-center h-full">
+                    <p className="text-3xl text-black opacity-100 font-bold">{proficiency}%</p>
+                </div>
             </div>
-          </motion.div>
+        </motion.div>
 
-  );
+    );
 }

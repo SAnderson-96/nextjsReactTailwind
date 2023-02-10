@@ -1,28 +1,5 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
-import Link from "next/link";
-import {
-  Timeline,
-  TimelineConnector,
-  TimelineContent,
-  TimelineDot,
-  TimelineItem,
-  TimelineOppositeContent,
-  TimelineSeparator,
-  TreeView,
-  TreeItem,
-} from "@mui/lab";
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
-import { MdOutlineCatchingPokemon } from "react-icons/md";
-import Image from "next/image";
-import design from "../../public/pokemon-wpf/pokemonStats.gif";
-import diceRoll from "../../public/dnd/dndDiceRoll.gif";
-import dnd from "../../public/dnd/dnd.png";
 import Navbar from "@/components/navbar";
-import styles from "../styles/Home.module.css";
-import { Typography } from "@mui/material";
 import Project from "@/components/project";
 
 export default function Dnd() {
