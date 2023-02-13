@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
@@ -9,7 +10,7 @@ export default function ProjectCard({title, builtWith, data, date, avatar, link}
     return (
 
         <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
-          w-[300px] md:w-[600px] xl:w-[800px] snap-center bg-[#292929] p-5 hover:opacity-100 opacity-40
+          w-[300px] md:w-[600px] xl:w-[800px] snap-center bg-[#404040] p-5 hover:opacity-100 opacity-75
           cursor-pointer transition-opacity duration-200 overflow-y-auto overflow-x-hidden no-scrollbar">
             <Link href={link} className="flex flex-col items-center">
                 <Image
@@ -26,7 +27,6 @@ export default function ProjectCard({title, builtWith, data, date, avatar, link}
                                 <Image key={key++} src={technology.path} width="64" height="64"
                                   className="h-10 w-10 rounded-4 object-contain" alt={technology.name}/>
                             </Tooltip>
-
                         ))}
                     </div>
                     <p className="uppercase py-5 text-gray-300">{date}</p>
