@@ -133,7 +133,7 @@
         },
         {
           "path": "/tailwindcss.svg",
-          "name": "TailwindCss"
+          "name": "TailwindCSS"
         },
         {
           "path": "/vercel.png",
@@ -165,23 +165,31 @@
         },
         {
           "path": "/tailwindcss.svg",
-          "name": "TailwindCss"
+          "name": "TailwindCSS"
         },
         {
-          "path": "/tailwindcss.svg",
-          "name": "TailwindCss"
+          "path": "/dart.png",
+          "name": "Dart"
         },
         {
-          "path": "/tailwindcss.svg",
-          "name": "TailwindCss"
+          "path": "/flutter.png",
+          "name": "Flutter"
         },
         {
-          "path": "/tailwindcss.svg",
-          "name": "TailwindCss"
+          "path": "/flame.png",
+          "name": "Flame"
         },
         {
-          "path": "/tailwindcss.svg",
-          "name": "TailwindCss"
+          "path": "/js-logo.png",
+          "name": "JavaScript"
+        },
+        {
+          "path": "/csharp.svg",
+          "name": "C#"
+        },
+        {
+          "path": "/angular.png",
+          "name": "Angular"
         }
       ],
       "date": "Since 2020",
@@ -259,81 +267,6 @@
       "name": "React",
       "image": "/react.svg",
       "proficiency": "50"
-    }
-  ],
-  "otherProjects": [
-    {
-      "name": "Python Keylogger",
-      "builtWith": [
-        {
-          "name": "Python",
-          "path": "/python.png"
-        }
-      ],
-      "summaries": [
-        "Made in Security class.",
-        "Send keystrokes to email or save to a local file.",
-        "For educational purposes only!"
-      ],
-      "date": "December 2022",
-      "image": "/keyboard.png",
-      "link": "https://github.com"
-    },
-    {
-      "name": "Pong Class",
-      "builtWith": [
-        {
-          "name": "JavaScript",
-          "path": "/js-logo.png"
-        }
-      ],
-      "summaries": [
-        "Taught college students how to make a Pong game in JavaScript using the HTML canvas.",
-        "Endorsed by teachers and the college."
-      ],
-      "date": "Fall 2022",
-      "image": "/pong.png",
-      "link": "https://github.com"
-    },
-    {
-      "name": "Algorithms",
-      "builtWith": [
-        {
-          "name": "Java",
-          "path": "/java.png"
-        }
-      ],
-      "summaries": [
-        "Re-created data stuctures and algorithms from scratch.",
-        "Examples: Binary Search, Stacks, Queues, Linked Lists, Binary Search Trees, Double Linked Lists, etc."
-      ],
-      "date": "Srping 2022",
-      "image": "/neural.png",
-      "link": "https://github.com"
-    },
-    {
-      "name": "Flutter-Flame Demo",
-      "builtWith": [
-        {
-          "name": "Flutter",
-          "path": "/flutter.png"
-        },
-        {
-          "name": "Flame Engine",
-          "path": "/flame.png"
-        },
-        {
-          "name": "Dart",
-          "path": "/dart.png"
-        }
-      ],
-      "summaries": [
-        "Re-created data stuctures and algorithms from scratch.",
-        "Examples: Binary Search, Stacks, Queues, Linked Lists, Binary Search Trees, Double Linked Lists, etc."
-      ],
-      "date": "Srping 2022",
-      "image": "/neural.png",
-      "link": "https://github.com"
     }
   ]
 }

@@ -31,7 +31,7 @@ export default function ProjectsScroll() {
 
             </section>
 
-            <section>
+            <section className="h-screen">
               <div className="snap-start w-full snap-mandatory snap-y" id="skills">
                 <Skills skills={config.skills} />
               </div>
