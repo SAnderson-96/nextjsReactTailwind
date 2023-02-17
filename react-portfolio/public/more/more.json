@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "name": "Python Keylogger",
+      "date": "22/12/2022",
+      "id": "projectCard",
+      "description": "Made a python keylogger that is able to take keystrokes and mouse clicks and emails data that could be of interest to the owner of the key logger."
+    },
+    {
+      "name": "Flutter Flame Game",
+      "date": "23/12/2022",
+      "id": "projectCard2",
+      "description": "Made a small side scroller dino run game with the flutter framework."
+    },
+    {
+      "name": "WPF Budget App",
+      "date": "24/12/2022",
+      "id": "projectCard3",
+      "description": "Built a Budget application with C# and WPF that uses a SQLite database to keep track of spending."
+    },
+    {
+      "name": "Raspberry Pi Projects",
+      "date": "25/12/2022",
+      "id": "projectCard4",
+      "description": "Various projects to use the GPIOs on the pi to get data."
+    },
+    {
+      "name": "Mini Course Teacher",
+      "date": "25/12/2022",
+      "id": "projectCard4",
+      "description": "Taught a course at John Abbott to build a pong game with JavaScript."
+    }
+  ]
+}

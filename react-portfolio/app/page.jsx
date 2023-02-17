@@ -48,7 +48,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
-            <Image src={deved} layout="fill" objectFit="cover" />
+            <Image alt="" src={deved} layout="fill" objectFit="cover" />
           </div>
         </section>
 
@@ -89,7 +89,7 @@ export default function Home() {
                   <TimelineDot color="primary" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent><Link className={styles.linkText} href="/pokemon-wpf">Pokemon WPF Application</Link></TimelineContent>
+                <TimelineContent><Link className={styles.linkText + " hover:text-cyan-500"} href="/pokemon-wpf">Pokemon WPF Application</Link></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
@@ -108,7 +108,7 @@ export default function Home() {
                   <TimelineDot color="primary" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent><Link className={styles.linkText} href="/dnd">DND Website</Link></TimelineContent>
+                <TimelineContent><Link className={styles.linkText + " hover:text-cyan-500"} href="/dnd">DND Website</Link></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
@@ -127,7 +127,7 @@ export default function Home() {
                   <TimelineDot color="primary" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent><Link className={styles.linkText} href="/">Pokemon Tower Defense</Link></TimelineContent>
+                <TimelineContent><Link className={styles.linkText + " hover:text-cyan-500"} href="/">Pokemon Tower Defense</Link></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
@@ -147,7 +147,7 @@ export default function Home() {
                   <TimelineDot color="primary" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent><Link className={styles.linkText} href="/">Android Farming Application</Link></TimelineContent>
+                <TimelineContent><Link className={styles.linkText + " hover:text-cyan-500"} href="/">Android Farming Application</Link></TimelineContent>
               </TimelineItem>
 
 
@@ -168,7 +168,7 @@ export default function Home() {
                   <TimelineDot color="success" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent><Link className={styles.linkText} href="/">Internship</Link></TimelineContent>
+                <TimelineContent><Link className={styles.linkText + " hover:text-cyan-500"} href="/">Internship</Link></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>

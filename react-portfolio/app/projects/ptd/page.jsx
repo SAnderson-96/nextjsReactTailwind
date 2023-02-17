@@ -30,7 +30,7 @@ export default function Ptd() {
               <motion.div className='min-h-screen my-auto snap text-center'>
                 <ul className="list-none hover:list-disc">
                   {data.features.map(feature => (
-                          <li className="mt-5 text-lg" key={`Feature:${featureKey++}`}>{feature.name}</li>
+                          <li className="mt-5 text-2xl" key={`Feature:${featureKey++}`}>{feature.name}</li>
                           ))}
                 </ul>
 
