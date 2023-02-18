@@ -9,17 +9,17 @@ export default function ProjectsScroll() {
   const keyS="Portfolio card "
   return (
           <>
-          <main className='px-10'>
+          <main className='px-5'>
             <section>
-              <div className="h-screen flex relative flex-col text-lft md:flex-row max-w-full
+              <div className="h-screen flex flex-col text-lft max-w-full
                   justify-evenly mx-auto items-center">
-                <div className="text-center absolute top-1">
+                <div className="text-center">
                   <h3 className="uppercase tracking-[10px] text-yellow-400 font-medium text-4xl xl:text-6xl">
                     Projects
                   </h3>
                 </div>
 
-                <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-gray-100 scrollbar-track-gray-900">
+                <div className="w-full flex space-x-5 overflow-x-scroll pt-5 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-gray-100 scrollbar-track-gray-900">
                   {config.projects.map(project => (
                           <ProjectCard key={keyS + key++} title={project.name} date={project.date} builtWith={project.builtWith.map(icon => icon)}
                             data={project.summaries}

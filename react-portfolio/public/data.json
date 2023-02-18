@@ -1,272 +1,284 @@
 {
-  "projects": [
-    {
-      "name": "Pokemon Tower Defense",
-      "builtWith": [
+    "projects": [
         {
-          "path": "/js-logo.png",
-          "name": "JavaScript"
+            "name": "Pokemon Tower Defense",
+            "builtWith": [
+                {
+                    "path": "/js-logo.png",
+                    "name": "JavaScript"
+                }
+            ],
+            "date": "December 2022",
+            "summaries": [
+                "Play a re-created from scratch Tower defense styled game with Pokemon",
+                "Catch new Pokemon and progress through the story to earn badges",
+                "Level up your Pokemon to teach them new moves",
+                "Built with a custom made game engine written in vanilla JavaScript",
+                "And much more.."
+            ],
+            "images": [
+                "/pokeball.png",
+                "/bulbasaur.png",
+                "/pikachu.png",
+                "/pokemon-trainer.png"
+            ],
+            "link": "/projects/ptd"
+        },
+        {
+            "name": "Dnd Character Creation Web App",
+            "builtWith": [
+                {
+                    "path": "/js-logo.png",
+                    "name": "JavaScript"
+                },
+                {
+                    "path": "/nodeJs.png",
+                    "name": "NodeJs"
+                },
+                {
+                    "path": "/github.png",
+                    "name": "Github"
+                },
+                {
+                    "path": "/html.png",
+                    "name": "HTML"
+                },
+                {
+                    "path": "/css.svg",
+                    "name": "CSS"
+                },
+                {
+                    "path": "/handlebars.png",
+                    "name": "Handlebars"
+                },
+                {
+                    "path": "/npm.png",
+                    "name": "Node Package Manager"
+                }
+            ],
+            "date": "May 2022",
+            "summaries": [
+                "Create/Edit/Delete your own dungeons and dragons characters",
+                "Keep track of your character by using the UI to edit the character sheet",
+                "View and add spells with the ability to filter based on parameters like class or race",
+                "And much more.."
+            ],
+            "images": [
+                "/d20.png",
+                "/swordAndShield.png",
+                "/dragon.png"
+            ],
+            "link": "/projects/dnd"
+        },
+        {
+            "name": "Farming Android Application",
+            "builtWith": [
+                {
+                    "path": "/java.png",
+                    "name": "Java"
+                },
+                {
+                    "path": "/kotlin.svg",
+                    "name": "Kotlin"
+                },
+                {
+                    "path": "/androidStudio.png",
+                    "name": "Android Studio"
+                }
+            ],
+            "date": "December 2022",
+            "summaries": [
+                "Keep track of all your seeds and plan out the planting season with a custom calculator to know how many seeds you'll need.",
+                "Built-in weather widget to see the days forecast",
+                "Take pictures and see your crops grow",
+                "Sell to your neighbors with the marketplace to buy and sell local produce"
+            ],
+            "images": [
+                "/tractor.png",
+                "/farming.png",
+                "/planting.png"
+            ],
+            "link": "/projects/farming"
+        },
+        {
+            "name": "Pokemon WPF Storage PC",
+            "builtWith": [
+                {
+                    "path": "/csharp.svg",
+                    "name": "C#"
+                },
+                {
+                    "path": "/dotnet.png",
+                    "name": ".NET"
+                },
+                {
+                    "path": "/python.png",
+                    "name": "Python"
+                }
+            ],
+            "date": "December 2021",
+            "summaries": [
+                "Store Pokemon just like in the game with the application.",
+                "See your box Pokemon and all their stats.",
+                "Decide wether or not your Pokemon are the rare shiny variant."
+            ],
+            "images": [
+                "/pokeball.png",
+                "/redOnComputer.png"
+            ],
+            "link": "/projects/pokemon-wpf"
+        },
+        {
+            "name": "This Website",
+            "builtWith": [
+                {
+                    "path": "/nextjs.png",
+                    "name": "NextJs"
+                },
+                {
+                    "path": "/tailwindcss.svg",
+                    "name": "TailwindCSS"
+                },
+                {
+                    "path": "/vercel.png",
+                    "name": "Vercel"
+                },
+                {
+                    "path": "/react.svg",
+                    "name": "React"
+                },
+                {
+                    "path": "/npm.png",
+                    "name": "Node Package Manager"
+                }
+            ],
+            "date": "March 2023",
+            "summaries": [
+                "My portfolio Website",
+                "I mean you're on the site right now... check it out."
+            ],
+            "images": [
+                "/portfolio.png",
+                "/resume.png",
+                "/internet.png"
+            ],
+            "link": "/"
+        },
+        {
+            "name": "Other smaller projects",
+            "builtWith": [
+                {
+                    "path": "/python.png",
+                    "name": "Python3"
+                },
+                {
+                    "path": "/tailwindcss.svg",
+                    "name": "TailwindCSS"
+                },
+                {
+                    "path": "/dart.png",
+                    "name": "Dart"
+                },
+                {
+                    "path": "/flutter.png",
+                    "name": "Flutter"
+                },
+                {
+                    "path": "/flame.png",
+                    "name": "Flame"
+                },
+                {
+                    "path": "/js-logo.png",
+                    "name": "JavaScript"
+                },
+                {
+                    "path": "/csharp.svg",
+                    "name": "C#"
+                },
+                {
+                    "path": "/angular.png",
+                    "name": "Angular"
+                },
+                {
+                    "path": "/npm.png",
+                    "name": "Node Package Manager"
+                }
+            ],
+            "date": "Since 2020",
+            "summaries": [
+                "Check out other smaller projects built with a collection of different technologies and programming languages."
+            ],
+            "images": [
+                "/more.png"
+            ],
+            "link": "/projects/more"
         }
-      ],
-      "date": "December 2022",
-      "summaries": [
-        "Play a re-created from scratch Tower defense styled game with Pokemon",
-        "Catch new Pokemon and progress through the story to earn badges",
-        "Level up your Pokemon to teach them new moves",
-        "Built with a custom made game engine written in vanilla JavaScript",
-        "And much more.."
-      ],
-      "images": [
-        "/pokeball.png",
-        "/bulbasaur.png",
-        "/pikachu.png",
-        "/pokemon-trainer.png"
-      ],
-      "link": "/projects/ptd"
-    },
-    {
-      "name": "Dnd Character Creation Web App",
-      "builtWith": [
+    ],
+    "skills": [
         {
-          "path": "/js-logo.png",
-          "name": "JavaScript"
+            "name": "C#",
+            "image": "/csharp.svg",
+            "proficiency": "80"
         },
         {
-          "path": "/nodeJs.png",
-          "name": "NodeJs"
+            "name": "git",
+            "image": "/git.png",
+            "proficiency": "70"
         },
         {
-          "path": "/github.png",
-          "name": "Github"
+            "name": "python",
+            "image": "/python.png",
+            "proficiency": "60"
         },
         {
-          "path": "/html.png",
-          "name": "HTML"
+            "name": "JavaScript",
+            "image": "/js-logo.png",
+            "proficiency": "80"
         },
         {
-          "path": "/css.svg",
-          "name": "CSS"
+            "name": "TypeScript",
+            "image": "/typescript.svg",
+            "proficiency": "50"
         },
         {
-          "path": "/handlebars.png",
-          "name": "Handlebars"
+            "name": "Kotlin",
+            "image": "/kotlin.svg",
+            "proficiency": "30"
+        },
+        {
+            "name": "Java",
+            "image": "/java.png",
+            "proficiency": "70"
+        },
+        {
+            "name": "HTML",
+            "image": "/html.png",
+            "proficiency": "90"
+        },
+        {
+            "name": "CSS",
+            "image": "/css.svg",
+            "proficiency": "60"
+        },
+        {
+            "name": ".NET",
+            "image": "/dotnet.png",
+            "proficiency": "80"
+        },
+        {
+            "name": "NodeJs",
+            "image": "/nodeJs.png",
+            "proficiency": "70"
+        },
+        {
+            "name": "Angular",
+            "image": "/angular.png",
+            "proficiency": "40"
+        },
+        {
+            "name": "React",
+            "image": "/react.svg",
+            "proficiency": "50"
         }
-      ],
-      "date": "May 2022",
-      "summaries": [
-        "Create/Edit/Delete your own dungeons and dragons characters",
-        "Keep track of your character by using the UI to edit the character sheet",
-        "View and add spells with the ability to filter based on parameters like class or race",
-        "And much more.."
-      ],
-      "images": [
-        "/d20.png",
-        "/swordAndShield.png",
-        "/dragon.png"
-      ],
-      "link": "/projects/dnd"
-    },
-    {
-      "name": "Farming Android Application",
-      "builtWith": [
-        {
-          "path": "/java.png",
-          "name": "Java"
-        },
-        {
-          "path": "/kotlin.svg",
-          "name": "Kotlin"
-        },
-        {
-          "path": "/androidStudio.png",
-          "name": "Android Studio"
-        }
-      ],
-      "date": "December 2022",
-      "summaries": [
-        "Keep track of all your seeds and plan out the planting season with a custom calculator to know how many seeds you'll need.",
-        "Built-in weather widget to see the days forecast",
-        "Take pictures and see your crops grow",
-        "Sell to your neighbors with the marketplace to buy and sell local produce"
-      ],
-      "images": [
-        "/tractor.png",
-        "/farming.png",
-        "/planting.png"
-      ],
-      "link": "/projects/farming"
-    },
-    {
-      "name": "Pokemon WPF Storage PC",
-      "builtWith": [
-        {
-          "path": "/csharp.svg",
-          "name": "C#"
-        },
-        {
-          "path": "/dotnet.png",
-          "name": ".NET"
-        },
-        {
-          "path": "/python.png",
-          "name": "Python"
-        }
-      ],
-      "date": "December 2021",
-      "summaries": [
-        "Store Pokemon just like in the game with the application.",
-        "See your box Pokemon and all their stats.",
-        "Decide wether or not your Pokemon are the rare shiny variant."
-      ],
-      "images": [
-        "/pokeball.png",
-        "/redOnComputer.png"
-      ],
-      "link": "/projects/pokemon-wpf"
-    },
-    {
-      "name": "This Website",
-      "builtWith": [
-        {
-          "path": "/nextjs.png",
-          "name": "NextJs"
-        },
-        {
-          "path": "/tailwindcss.svg",
-          "name": "TailwindCSS"
-        },
-        {
-          "path": "/vercel.png",
-          "name": "Vercel"
-        },
-        {
-          "path": "/react.svg",
-          "name": "React"
-        }
-      ],
-      "date": "March 2023",
-      "summaries": [
-        "My portfolio Website",
-        "I mean you're on the site right now... check it out."
-      ],
-      "images": [
-        "/portfolio.png",
-        "/resume.png",
-        "/internet.png"
-      ],
-      "link": "/"
-    },
-    {
-      "name": "Other smaller projects",
-      "builtWith": [
-        {
-          "path": "/python.png",
-          "name": "Python3"
-        },
-        {
-          "path": "/tailwindcss.svg",
-          "name": "TailwindCSS"
-        },
-        {
-          "path": "/dart.png",
-          "name": "Dart"
-        },
-        {
-          "path": "/flutter.png",
-          "name": "Flutter"
-        },
-        {
-          "path": "/flame.png",
-          "name": "Flame"
-        },
-        {
-          "path": "/js-logo.png",
-          "name": "JavaScript"
-        },
-        {
-          "path": "/csharp.svg",
-          "name": "C#"
-        },
-        {
-          "path": "/angular.png",
-          "name": "Angular"
-        }
-      ],
-      "date": "Since 2020",
-      "summaries": [
-        "Check out other smaller projects built with a collection of different technologies and programming languages."
-      ],
-      "images": [
-        "/more.png"
-      ],
-      "link": "/projects/more"
-    }
-  ],
-  "skills": [
-    {
-      "name": "C#",
-      "image": "/csharp.svg",
-      "proficiency": "80"
-    },
-    {
-      "name": "git",
-      "image": "/git.png",
-      "proficiency": "70"
-    },
-    {
-      "name": "python",
-      "image": "/python.png",
-      "proficiency": "60"
-    },
-    {
-      "name": "JavaScript",
-      "image": "/js-logo.png",
-      "proficiency": "80"
-    },
-    {
-      "name": "TypeScript",
-      "image": "/typescript.svg",
-      "proficiency": "50"
-    },
-    {
-      "name": "Kotlin",
-      "image": "/kotlin.svg",
-      "proficiency": "30"
-    },
-    {
-      "name": "Java",
-      "image": "/java.png",
-      "proficiency": "70"
-    },
-    {
-      "name": "HTML",
-      "image": "/html.png",
-      "proficiency": "90"
-    },
-    {
-      "name": "CSS",
-      "image": "/css.svg",
-      "proficiency": "60"
-    },
-    {
-      "name": ".NET",
-      "image": "/dotnet.png",
-      "proficiency": "80"
-    },
-    {
-      "name": "NodeJs",
-      "image": "/nodeJs.png",
-      "proficiency": "70"
-    },
-    {
-      "name": "Angular",
-      "image": "/angular.png",
-      "proficiency": "40"
-    },
-    {
-      "name": "React",
-      "image": "/react.svg",
-      "proficiency": "50"
-    }
-  ]
+    ]
 }

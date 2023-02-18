@@ -4,13 +4,7 @@ import Image from "next/image";
 
 export default function Skill({directionLeft, logo, name, proficiency}) {
     return (
-        <motion.div
-            initial={{
-                x: directionLeft ? -300 : 300,
-                opacity: 0,
-            }}
-            transition={{duration: 1}}
-            whileInView={{opacity: 1, x: 0}}
+        <div
             className="group relative flex cursor-pointer">
             <div style={{
                 display: "flex",
@@ -33,7 +27,7 @@ export default function Skill({directionLeft, logo, name, proficiency}) {
                     <p className="text-3xl text-black opacity-100 font-bold">{proficiency}%</p>
                 </div>
             </div>
-        </motion.div>
+        </div>
 
     );
 }
