@@ -10,7 +10,7 @@ export default function ProjectCard({title, builtWith, data, date, avatar, link}
     return (
 
         <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
-          w-[275px] md:w-[600px] xl:w-[800px] snap-center bg-[#404040] p-5 hover:opacity-100 opacity-75
+          w-[275px] md:w-[600px] xl:w-[800px] snap-center bg-slate-700 p-5 hover:opacity-100 opacity-75
           cursor-pointer transition-opacity duration-200 overflow-y-auto overflow-x-hidden no-scrollbar">
             <Link href={link} className="flex flex-col items-center max-h-[600px]">
                 <Image

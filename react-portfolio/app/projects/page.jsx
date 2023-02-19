@@ -19,7 +19,8 @@ export default function ProjectsScroll() {
                   </h3>
                 </div>
 
-                <div className="w-full flex space-x-5 overflow-x-scroll pt-5 snap-x snap-mandatory scrollbar-thin scrollbar-thumb-gray-100 scrollbar-track-gray-900">
+                <div className="w-full flex space-x-5 overflow-x-scroll pt-5 snap-x snap-mandatory
+                scrollbar-thin scrollbar-thumb-gray-100 scrollbar-track-gray-900">
                   {config.projects.map(project => (
                           <ProjectCard key={keyS + key++} title={project.name} date={project.date} builtWith={project.builtWith.map(icon => icon)}
                             data={project.summaries}
