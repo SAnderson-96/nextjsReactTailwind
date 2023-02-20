@@ -12,17 +12,17 @@ export default function MoreProjectCard({name, date, image, author, credit}) {
 
                 <a href="#">
                     <Image alt="Placeholder" className="block h-auto w-full xl:mt-3 mt-1 object-cover"
-                      src={image} width="600" height="400"/>
+                           src={image} width="600" height="400"/>
                 </a>
 
                 <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 className="text-lg">
                         <a className="no-underline hover:underline" href="#">
-                          {name}
+                            {name}
                         </a>
                     </h1>
                     <p className="text-grey-darker text-sm">
-                      {date}
+                        {date}
                     </p>
                 </header>
 
@@ -33,7 +33,7 @@ export default function MoreProjectCard({name, date, image, author, credit}) {
                         </p>
                     </a>
                 </footer>
-              <span className="text-[8px] leading-none hidden">{credit}</span>
+                <span className="text-[8px] leading-none hidden">{credit}</span>
             </article>
             {/*<!-- END Article -->*/}
         </div>

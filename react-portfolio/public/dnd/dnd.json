@@ -1,0 +1,63 @@
+{
+    "title": "DND Character Creation Website",
+    "cards":[
+        {
+            "header": "Create Characters",
+            "body": "Log in and go through a guided character creation!",
+            "cardId":"dndcard01",
+            "image": "/600x400.png"
+        },
+        {
+            "header": "Track Campaigns",
+            "body": "Keep Track of all your different characters!",
+            "cardId":"dndcard02",
+            "image": "/600x400.png"
+        },
+        {
+            "header": "Homebrew Spells",
+            "body": "View the players handbook spells as well as your own!",
+            "cardId":"dndcard03",
+            "image": "/600x400.png"
+        },
+        {
+            "header": "Character Sheet",
+            "body": "Roll, take damage, and update your character!",
+            "cardId":"dndcard04",
+            "image": "/600x400.png"
+        }
+    ],
+    "technologies":[
+        {
+            "name":"Nodejs",
+            "image": "/nodeJs.png"
+        },
+        {
+            "name":"JavaScript",
+            "image": "/js-logo.png"
+        },
+        {
+            "name":"Handlebars",
+            "image": "/handlebars.png"
+        },
+        {
+            "name":"REST API",
+            "image": "/rest-white.png"
+        },
+        {
+            "name":"Node Package Manager",
+            "image": "/npm.png"
+        },
+        {
+            "name":"Bootstrap",
+            "image": "/bootstrap.svg"
+        },
+        {
+            "name":"CSS",
+            "image": "/css.svg"
+        },
+        {
+            "name":"HTML",
+            "image": "/html.png"
+        }
+    ]
+}

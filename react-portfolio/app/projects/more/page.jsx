@@ -16,7 +16,8 @@ export default function More() {
                             <div className="flex flex-wrap items-center justify-evenly -mx-1 lg:-mx-4">
                                 {moreData.projects.map(project => (
                                         <MoreProjectCard key={project.id} name={project.name} date={project.date}
-                                        image={project.image} author={project.author} credit={project.imageCredit}/>
+                                                         image={project.image} author={project.author}
+                                                         credit={project.imageCredit}/>
                                     )
                                 )}
                             </div>
