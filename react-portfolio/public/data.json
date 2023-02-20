@@ -282,7 +282,7 @@
     },
     {
       "name": "Fortran",
-      "image":"/icons/fortran.png",
+      "image": "/icons/fortran.png",
       "proficiency": "20"
     }
   ]
