@@ -2,7 +2,7 @@ import React from 'react';
 import {motion} from "framer-motion";
 import Skill from "@/components/skill";
 
-export default function Skills({skills, widthClass, heightClass}) {
+export default function Skills({skills, widthClass, heightClass, isOverlay=false}) {
     let key = 0;
     const keyString = "Skill"
     return (
@@ -23,6 +23,7 @@ export default function Skills({skills, widthClass, heightClass}) {
                            proficiency={skill.proficiency}
                            widthClass={widthClass}
                            heightClass={heightClass}
+                        isOverlay={isOverlay}
                     />
                 ))}
             </div>

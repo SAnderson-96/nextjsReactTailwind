@@ -17,10 +17,10 @@
         "And much more.."
       ],
       "images": [
-        "/pokeball.png",
-        "/bulbasaur.png",
-        "/pikachu.png",
-        "/pokemon-trainer.png"
+        "/icons/pokeball.png",
+        "/icons/bulbasaur.png",
+        "/icons/pikachu.png",
+        "/icons/pokemon-trainer.png"
       ],
       "link": "/projects/ptd"
     },
