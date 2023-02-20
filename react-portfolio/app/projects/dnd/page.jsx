@@ -33,6 +33,9 @@ export default function Dnd() {
 
                     </div>
                 </section>
+              <section className="min-h-screen">
+                <div>Technologies Used</div>
+              </section>
             </main>
         </>
     );
