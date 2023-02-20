@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Technologies from "@/components/technologies";
 
 export default function Dnd() {
     const data = require('../../../public/dnd/dnd.json');
@@ -34,7 +35,7 @@ export default function Dnd() {
                     </div>
                 </section>
               <section className="min-h-screen">
-                <div>Technologies Used</div>
+                <Technologies technologies={data.technologies}/>
               </section>
             </main>
         </>

@@ -30,51 +30,51 @@
   "technologies": [
     {
       "name": "Nodejs",
-      "image": "/nodeJs.png"
+      "image": "/icons/nodeJs.png"
     },
     {
       "name": "JavaScript",
-      "image": "/js-logo.png"
+      "image": "/icons/js-logo.png"
     },
     {
       "name": "Handlebars",
-      "image": "/handlebars.png"
+      "image": "/icons/handlebars.png"
     },
     {
       "name": "Jest",
-      "image": ""
+      "image": "/icons/jest.png"
     },
     {
       "name": "Puppeteer",
-      "image": ""
+      "image": "/icons/puppeteer.png"
     },
     {
       "name": "Docker",
-      "image": ""
+      "image": "/icons/docker.png"
     },
     {
       "name": "MySql",
-      "image": ""
+      "image": "/icons/mysql.png"
     },
     {
       "name": "REST API",
-      "image": "/rest-white.png"
+      "image": "/icons/rest-white.png"
     },
     {
       "name": "Node Package Manager",
-      "image": "/npm.png"
+      "image": "/icons/npm.png"
     },
     {
       "name": "Bootstrap",
-      "image": "/bootstrap.svg"
+      "image": "/icons/bootstrap.svg"
     },
     {
       "name": "CSS",
-      "image": "/css.svg"
+      "image": "/icons/css.svg"
     },
     {
       "name": "HTML",
-      "image": "/html.png"
+      "image": "/icons/html.png"
     }
   ]
 }

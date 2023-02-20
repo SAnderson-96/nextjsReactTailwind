@@ -1,0 +1,70 @@
+{
+  "name":"Pokemon Tower Defense",
+  "hero": "/ptd/ptd-home-screen-transparent.png",
+  "heroalt": "Pokemon Tower Defense Title Screen",
+  "url":"https://jeffbrin.github.io/PokemonTowerDefensePlay/",
+  "cards":[
+    {
+      "header": "Catch Pokemon",
+      "body": "Log in and go through a guided character creation!",
+      "cardId": "dndcard01",
+      "image": "/dnd/dndLaptop.png"
+    },
+    {
+      "header": "Beat Brock",
+      "body": "Log in and go through a guided character creation!",
+      "cardId": "dndcard01",
+      "image": "/dnd/dndLaptop.png"
+    },
+    {
+      "header": "Go up against Team Rocket",
+      "body": "Log in and go through a guided character creation!",
+      "cardId": "dndcard01",
+      "image": "/dnd/dndLaptop.png"
+    },
+    {
+      "header": "Select Your starter",
+      "body": "Log in and go through a guided character creation!",
+      "cardId": "dndcard01",
+      "image": "/dnd/dndLaptop.png"
+    }
+  ],
+  "technologies":[
+    {
+      "name": "JavaScript",
+      "image": "/icons/js-logo.png"
+    },
+    {
+      "name": "Git",
+      "image": "/icons/git.png"
+    },
+    {
+      "name": "Github",
+      "image": "/icons/github.png"
+    },
+    {
+      "name": "HTML",
+      "image": "/icons/html.png"
+    },
+    {
+      "name": "CSS",
+      "image": "/icons/css.svg"
+    },
+    {
+      "name": "Amazon Web Services",
+      "image": "/icons/aws.png"
+    },
+    {
+      "name": "NodeJs",
+      "image": "/icons/nodejs.png"
+    },
+    {
+      "name": "MySql",
+      "image": "/icons/mysql.png"
+    },
+    {
+      "name": "SQL",
+      "image": "/icons/sql-server-white.png"
+    }
+  ]
+}
