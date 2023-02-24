@@ -302,6 +302,11 @@
       "name": "GitHub",
       "image": "/icons/github-white.png",
       "proficiency": "75"
+    },
+    {
+      "name": "MySQL",
+      "image": "/icons/mysql.png",
+      "proficiency": "65"
     }
   ]
 }
