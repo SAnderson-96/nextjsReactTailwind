@@ -17,10 +17,10 @@
         "And much more.."
       ],
       "images": [
-        "/pokeball.png",
-        "/bulbasaur.png",
-        "/pikachu.png",
-        "/pokemon-trainer.png"
+        "/icons/pokeball.png",
+        "/icons/bulbasaur.png",
+        "/icons/pikachu.png",
+        "/icons/pokemon-trainer.png"
       ],
       "link": "/projects/ptd"
     },
@@ -54,6 +54,14 @@
         {
           "path": "/icons/npm.png",
           "name": "Node Package Manager"
+        },
+        {
+          "path": "/icons/jest.png",
+          "name": "Jest"
+        },
+        {
+          "path": "/icons/puppeteer.png",
+          "name": "Puppeteer"
         }
       ],
       "date": "May 2022",
@@ -226,7 +234,7 @@
       "proficiency": "70"
     },
     {
-      "name": "python",
+      "name": "Python3",
       "image": "/icons/python.png",
       "proficiency": "60"
     },
@@ -284,6 +292,16 @@
       "name": "Fortran",
       "image": "/icons/fortran.png",
       "proficiency": "20"
+    },
+    {
+      "name": "Azure DevOps",
+      "image": "/icons/AzureDevOps.png",
+      "proficiency": "70"
+    },
+    {
+      "name": "GitHub",
+      "image": "/icons/github-white.png",
+      "proficiency": "75"
     }
   ]
 }

@@ -14,7 +14,7 @@ export default function Technologies({technologies}) {
                 Technologies Used
             </h3>
 
-            <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-4 gap-5 top-64 my-5">
+            <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-4 gap-5 top-64 my-5 mx-auto">
                 {technologies.map(tech => (
                     <Tooltip content={tech.name} key={keyString + key++}>
                         <Skill directionLeft={Math.random() < 0.5}

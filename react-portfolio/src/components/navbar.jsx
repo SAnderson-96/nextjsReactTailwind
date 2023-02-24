@@ -7,13 +7,10 @@ export default function Navbar(){
     return(<nav className="py-10 mb-12 flex justify-between ml-8 mr-8">
       <Link href="/"><h1 className=" text-xl font-code">ANDRSN //Dev</h1></Link>
     <ul className="flex items-center">
-      {/* <li>
-        <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
-      </li> */}
       <li>
         <Link
           className=" bg-gradient-to-r from-cyan-500 to-red-400 px-4 py-2 border-none rounded-md ml-4 xl:px-8 xl:py-4 hover:from-red-400 hover:to-cyan-500"
-          href="#"
+          href="/cv.pdf" target="_blank"
         >
           Resume
         </Link>

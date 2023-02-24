@@ -18,13 +18,13 @@ export default function Dnd() {
                                        alt="" width={600}
                                        height={400}></Image>
                               <Link href={data.url} target="_blank">
-                                <div className="text-xl font-bold lg:text-3xl
+                                <div className="text-md font-bold lg:text-3xl
                             bg-green-800 w-fit rounded-md p-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
                                     hover:cursor-pointer">
                                   {card.header}
                                 </div>
                               </Link>
-                                <div className="bg-zinc-700 xl:bg-blue-900 rounded-md py-1 px-2 ml-5 absolute bottom-5 right-5 opacity-80 group-hover:opacity-100">
+                                <div className="bg-zinc-700 xl:bg-blue-900 rounded-md lg:py-1 lg:px-2 lg:ml-5 absolute bottom-5 right-5 opacity-80 group-hover:opacity-100">
                                     <div className="text-lg mx-5 lg:text-xl mx-auto w-auto rounded-md opacity-100">
                                         {card.body}
                                     </div>
@@ -35,7 +35,7 @@ export default function Dnd() {
                     </div>
                 </section>
               <section className="min-h-screen">
-                <Technologies technologies={data.technologies}/>
+                <Technologies className="mx-auto" technologies={data.technologies}/>
               </section>
             </main>
         </>

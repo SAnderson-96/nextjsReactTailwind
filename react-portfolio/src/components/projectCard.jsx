@@ -31,7 +31,7 @@ export default function ProjectCard({title, builtWith, data, date, avatar, link}
                     </div>
                     <p className="uppercase py-5 text-gray-300">{date}</p>
                     <div className="overfow-y-auto no-scrollbar">
-                        <ul className="list-disc space-y-4 ml-5 text-lg">
+                        <ul className="list-disc space-y-4 ml-5 text-lg mb-12">
                             {data.map(summary => (
                                 <li className="text-2xl text-white" key={"liKey" + key++}>{summary}</li>
                             ))}
