@@ -1,9 +1,8 @@
 import React from 'react';
-import {motion} from "framer-motion";
 import Skill from "@/components/skill";
 import {Tooltip} from "@nextui-org/react";
 
-export default function Skills({skills, widthClass, heightClass, isOverlay=false}) {
+export default function Skills({skills, widthClass, heightClass}) {
     let key = 0;
     const keyString = "Skill"
     return (
@@ -18,16 +17,15 @@ export default function Skills({skills, widthClass, heightClass, isOverlay=false
 
             <div className="absolute grid grid-cols-3 md:grid-cols-4 xl:grid-cols-4 gap-5 top-64">
                 {skills.map(skill => (
-                    <Tooltip key={keyString + key++} content={`${skill.name} - ${skill.proficiency}`}>
-                    <Skill directionLeft={Math.random() < 0.5}
-                           logo={skill.image}
-                           name={skill.name}
-                           proficiency={skill.proficiency}
-                           widthClass={widthClass}
-                           heightClass={heightClass}
-                           isOverlay={isOverlay}
-                    />
-                </Tooltip>
+                    <Tooltip key={keyString + key++} content={`${skill.name} - ${skill.proficiency}%`}>
+                        <Skill directionLeft={Math.random() < 0.5}
+                               logo={skill.image}
+                               name={skill.name}
+                               proficiency={skill.proficiency}
+                               widthClass={widthClass}
+                               heightClass={heightClass}
+                        />
+                    </Tooltip>
                 ))}
             </div>
         </div>

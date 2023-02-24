@@ -4,7 +4,7 @@
       "name": "Pokemon Tower Defense",
       "builtWith": [
         {
-          "path": "/js-logo.png",
+          "path": "/icons/js-logo.png",
           "name": "JavaScript"
         }
       ],
