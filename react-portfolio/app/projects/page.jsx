@@ -14,13 +14,13 @@ export default function ProjectsScroll() {
               <div className="h-screen flex flex-col text-lft max-w-full
                   justify-evenly mx-auto items-center">
                 <div className="text-center">
-                  <h3 className="uppercase font-bold tracking-[10px] text-yellow-400 font-medium text-4xl xl:text-6xl">
+                  <h3 className="uppercase tracking-[10px] text-yellow-400 font-medium text-4xl xl:text-6xl">
                     Projects
                   </h3>
                 </div>
 
                 <div className="w-full flex space-x-5 overflow-x-scroll pt-5 snap-x snap-mandatory
-                scrollbar-thin scrollbar-thumb-gray-100 scrollbar-track-gray-900 xl:h-[750px]">
+                scrollbar-thin scrollbar-thumb-gray-100 scrollbar-track-gray-900">
                   {config.projects.map(project => (
                           <ProjectCard key={keyS + key++} title={project.name} date={project.date} builtWith={project.builtWith.map(icon => icon)}
                             data={project.summaries}
@@ -32,12 +32,12 @@ export default function ProjectsScroll() {
 
             </section>
 
-            <section className="min-h-screen mb-12">
+            <section className="h-screen">
               <div className="snap-start w-full snap-mandatory snap-y" id="skills">
                 <Skills skills={config.skills}
                   heightClass="h-24 xl:h-48"
                   widthClass="w-24 xl:w-48"
-                />
+                    isOverlay={true}/>
               </div>
 
             </section>

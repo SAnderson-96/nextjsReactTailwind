@@ -6,27 +6,27 @@
   "cards":[
     {
       "header": "Catch Pokemon",
-      "body": "Log in and go through a guided character creation!",
-      "cardId": "dndcard01",
-      "image": "/dnd/dndLaptop.png"
+      "body": "Move a pokeball over a low health pokemon!",
+      "cardId": "ptdCatchPokemonCard",
+      "image": "/ptd/catch-pokemon.png"
     },
     {
       "header": "Beat Brock",
-      "body": "Log in and go through a guided character creation!",
-      "cardId": "dndcard01",
-      "image": "/dnd/dndLaptop.png"
+      "body": "Obtain the boulder badge!",
+      "cardId": "ptdBeatBrockCard",
+      "image": "/ptd/brock.png"
     },
     {
       "header": "Go up against Team Rocket",
-      "body": "Log in and go through a guided character creation!",
-      "cardId": "dndcard01",
-      "image": "/dnd/dndLaptop.png"
+      "body": "Make them blast off!",
+      "cardId": "ptdBeatTeamRocketCard",
+      "image": "/ptd/team-rocket.png"
     },
     {
       "header": "Select Your starter",
-      "body": "Log in and go through a guided character creation!",
-      "cardId": "dndcard01",
-      "image": "/dnd/dndLaptop.png"
+      "body": "Bulbasaur, Squirtle or Charmander?!",
+      "cardId": "ptdStarterSelectCard",
+      "image": "/ptd/starter-select.png"
     }
   ],
   "technologies":[
