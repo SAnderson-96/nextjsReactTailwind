@@ -1,0 +1,58 @@
+{
+  "name": "Farming Android App",
+  "hero": "/ptd/ptd-home-screen-transparent.png",
+  "heroalt": "Farming android application",
+  "url": "https://github.com/F2022-AppDev-II/project-farmerverse",
+  "cards": [
+    {
+      "header": "Add seeds to personal Database",
+      "body": "Add your seed shipments to the app!",
+      "cardId": "farmingSeedsDbCard",
+      "image": "/farming/seedList.png"
+    },
+    {
+      "header": "Custom Weather Widget",
+      "body": "Sell your plants today!",
+      "cardId": "ptdCatchPokemonCard",
+      "image": "/farming/weatherWidget.png"
+    },
+    {
+      "header": "Calculate seeds needed",
+      "body": "Based on a given area size how many seeds do you need?!",
+      "cardId": "farmingCalculatorCard",
+      "image": "/farming/CalculatorPage.png"
+    },
+    {
+      "header": "Take Pictures",
+      "body": "Create a collage of the growing process!",
+      "cardId": "ptdCatchPokemonCard",
+      "image": "/farming/cameraPage.png"
+    }
+  ],
+  "technologies": [
+    {
+      "name": "Java",
+      "image": "/icons/java.png"
+    },
+    {
+      "name": "Android Studio",
+      "image": "/icons/androidStudio.png"
+    },
+    {
+      "name": "Kotlin",
+      "image": "/icons/kotlin.svg"
+    },
+    {
+      "name": "Github",
+      "image": "/icons/github-white.png"
+    },
+    {
+      "name": "SQLite",
+      "image": "/icons/sqlite.png"
+    },
+    {
+      "name": "Android Emulator",
+      "image": "/icons/android.png"
+    }
+  ]
+}
