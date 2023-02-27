@@ -6,7 +6,7 @@
       "header": "Create Characters",
       "body": "Log in and go through a guided character creation!",
       "cardId": "dndcard01",
-      "image": "/dnd/dndLaptop.png"
+      "image": "/dnd/dndViewCharacters.png"
     },
     {
       "header": "Track Campaigns",
@@ -24,7 +24,7 @@
       "header": "Character Sheet",
       "body": "Roll, take damage, and update your character!",
       "cardId": "dndcard04",
-      "image": "/dnd/dndViewCharacters.png"
+      "image": "/dnd/dndLaptop.png"
     }
   ],
   "technologies": [
