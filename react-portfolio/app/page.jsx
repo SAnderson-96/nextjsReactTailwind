@@ -47,8 +47,8 @@ export default function Home() {
               <AiFillGithub className={styles.clickableIcon}/>
             </Link>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
-            <Image alt="" src={deved} layout="fill" objectFit="cover" />
+          <div className="relative mx-auto bg-gradient-to-b from-cyan-600 rounded-full w-80 h-80 mt-20 overflow-hidden">
+            <Image alt="" src={deved} fill={true} style={{objectFit: "cover"}} />
           </div>
         </section>
 
@@ -63,14 +63,14 @@ export default function Home() {
           <div>
             <Timeline position="alternate">
               <TimelineItem>
-                <TimelineOppositeContent color="#139E8F" variant="h6">
-                  F-2020
+                  <TimelineOppositeContent className="text-center md:text-end" color="#139E8F" variant="h6">
+                  Fall 2020
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                   <TimelineDot color="secondary" variant="outlined" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent>Computer Science Start</TimelineContent>
+                  <TimelineContent className="text-center md:text-justify">Computer Science Start</TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
@@ -82,14 +82,14 @@ export default function Home() {
               </TimelineItem>
 
               <TimelineItem>
-                <TimelineOppositeContent color="#139E8F" variant="h6">
+                  <TimelineOppositeContent className="text-center md:text-end" color="#139E8F" variant="h6">
                   F-2021
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                   <TimelineDot color="primary" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent><Link className={styles.linkText + " hover:text-cyan-500"} href="/pokemon-wpf">Pokemon WPF Application</Link></TimelineContent>
+                  <TimelineContent className="text-center md:text-justify"><Link className={styles.linkText + " hover:text-cyan-500"} href="/pokemon-wpf">Pokemon WPF Application</Link></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
@@ -101,14 +101,14 @@ export default function Home() {
               </TimelineItem>
 
               <TimelineItem>
-                <TimelineOppositeContent color="#139E8F" variant="h6">
+                  <TimelineOppositeContent className="text-center md:text-end" color="#139E8F" variant="h6">
                   W-2021
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                   <TimelineDot color="primary" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent><Link className={styles.linkText + " hover:text-cyan-500"} href="/dnd">DND Website</Link></TimelineContent>
+                  <TimelineContent className="text-center md:text-justify"><Link className={styles.linkText + " hover:text-cyan-500"} href="/dnd">DND Website</Link></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
@@ -120,14 +120,14 @@ export default function Home() {
               </TimelineItem>
 
               <TimelineItem>
-                <TimelineOppositeContent color="#139E8F" variant="h6">
+                  <TimelineOppositeContent className="text-center md:text-end" color="#139E8F" variant="h6">
                   F-2022
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                   <TimelineDot color="primary" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent><Link className={styles.linkText + " hover:text-cyan-500"} href="/">Pokemon Tower Defense</Link></TimelineContent>
+                  <TimelineContent className="text-center md:text-justify"><Link className={styles.linkText + " hover:text-cyan-500"} href="/">Pokemon Tower Defense</Link></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
@@ -140,14 +140,14 @@ export default function Home() {
 
 
               <TimelineItem>
-                <TimelineOppositeContent color="#139E8F" variant="h6">
+                  <TimelineOppositeContent className="text-center md:text-end" color="#139E8F" variant="h6">
                   F-2022
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                   <TimelineDot color="primary" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent><Link className={styles.linkText + " hover:text-cyan-500"} href="/">Android Farming Application</Link></TimelineContent>
+                  <TimelineContent className="text-center md:text-justify"><Link className={styles.linkText + " hover:text-cyan-500"} href="/">Android Farming Application</Link></TimelineContent>
               </TimelineItem>
 
 
@@ -161,14 +161,14 @@ export default function Home() {
               </TimelineItem>
 
               <TimelineItem>
-                <TimelineOppositeContent color="#139E8F" variant="h6">
+                  <TimelineOppositeContent className="text-center md:text-end" color="#139E8F" variant="h6">
                   W-2023
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                   <TimelineDot color="success" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent><Link className={styles.linkText + " hover:text-cyan-500"} href="/">Internship</Link></TimelineContent>
+                  <TimelineContent className="text-center md:text-justify"><Link className={styles.linkText + " hover:text-cyan-500"} href="/">Internship</Link></TimelineContent>
               </TimelineItem>
 
               <TimelineItem>
@@ -180,10 +180,13 @@ export default function Home() {
               </TimelineItem>
 
               <TimelineItem>
+                  <TimelineOppositeContent className="text-center md:text-end" color="#139E8F" variant="h6">
+                      Spring 2023
+                  </TimelineOppositeContent>
                 <TimelineSeparator>
                   <TimelineDot color="warning" variant="outlined" />
                 </TimelineSeparator>
-                <TimelineContent>Graduate Computer Science</TimelineContent>
+                  <TimelineContent className="text-center md:text-justify">Graduate Computer Science</TimelineContent>
               </TimelineItem>
             </Timeline>
           </div>

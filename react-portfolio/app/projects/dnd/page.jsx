@@ -20,11 +20,11 @@ export default function Dnd() {
                               <Link href={data.url} target="_blank">
                                 <div className="text-md font-bold lg:text-3xl
                             bg-green-800 w-fit rounded-md p-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-                                    hover:cursor-pointer">
+                                    hover:cursor-pointer group-hover:opacity-100 opacity-25 hover:bg-green-600">
                                   {card.header}
                                 </div>
                               </Link>
-                                <div className="bg-zinc-700 xl:bg-blue-900 rounded-md lg:py-1 lg:px-2 lg:ml-5 absolute bottom-5 right-5 opacity-80 group-hover:opacity-100">
+                                <div className="bg-zinc-700 xl:bg-blue-900 rounded-md lg:py-1 lg:px-2 lg:ml-5 absolute bottom-5 right-5 opacity-60 group-hover:opacity-100">
                                     <div className="text-lg mx-5 lg:text-xl mx-auto w-auto rounded-md opacity-100">
                                         {card.body}
                                     </div>
