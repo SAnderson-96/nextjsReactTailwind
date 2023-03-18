@@ -11,10 +11,10 @@ export default function ProjectsScroll() {
           <>
           <main className='px-5'>
             <section>
-              <div className="h-screen flex flex-col text-lft max-w-full
+              <div className="flex flex-col text-lft max-w-full
                   justify-evenly mx-auto items-center">
                 <div className="text-center">
-                  <h3 className="uppercase tracking-[10px] text-yellow-400 font-medium text-4xl xl:text-6xl">
+                  <h3 className="uppercase tracking-[10px] text-yellow-600 dark:text-yellow-400 font-medium text-4xl xl:text-6xl">
                     Projects
                   </h3>
                 </div>
@@ -32,7 +32,7 @@ export default function ProjectsScroll() {
 
             </section>
 
-            <section className="h-screen">
+            <section>
               <div className="snap-start w-full snap-mandatory snap-y" id="skills">
                 <Skills skills={config.skills}
                   heightClass="h-24 xl:h-48"

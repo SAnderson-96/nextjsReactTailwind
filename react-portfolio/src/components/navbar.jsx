@@ -4,8 +4,9 @@ import Link from "next/link";
 export default function Navbar(){
 
 
-    return(<nav className="py-10 mb-12 flex justify-between ml-8 mr-8">
-      <Link href="/"><h1 className=" text-xl font-code">ANDRSN //Dev</h1></Link>
+    return(
+            <nav className="mb-12 flex justify-between ml-8 mr-8 bg-black rounded-full p-5">
+      <Link href="/"><h1 className=" text-xl font-code text-white">ANDRSN //Dev</h1></Link>
     <ul className="flex items-center">
       <li>
         <Link
