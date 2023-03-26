@@ -13,7 +13,7 @@ import {
 } from "@mui/lab";
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillGift, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
-import deved from "../public/dev-ed-wave.png";
+import headshot from "../public/headshot.png";
 
 import Navbar from "@/components/navbar";
 import styles from "../src/styles/Home.module.css";
@@ -48,7 +48,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-cyan-600 rounded-full w-80 h-80 mt-20 overflow-hidden">
-            <Image alt="" src={deved} fill={true} style={{objectFit: "cover"}} />
+            <Image alt="" src={headshot} fill={true} style={{objectFit: "cover"}} />
           </div>
         </section>
 
