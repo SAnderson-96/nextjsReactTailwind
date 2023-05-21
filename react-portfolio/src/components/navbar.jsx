@@ -10,14 +10,14 @@ export default function Navbar(){
     <ul className="flex items-center">
       <li>
         <Link
-          className=" bg-gradient-to-r from-cyan-500 to-red-400 px-4 py-2 border-none rounded-md ml-4 xl:px-8 xl:py-4 hover:from-red-400 hover:to-cyan-500"
+          className="bg-red-500 px-4 py-2 border-none rounded-md ml-4 xl:px-8 xl:py-4 hover:bg-gradient-to-r hover:from-red-400 hover:to-cyan-500"
           href="/cv.pdf" target="_blank"
         >
           Resume
         </Link>
       </li>
       <li>
-        <Link className="bg-gradient-to-r from-red-400 to-cyan-500 border-none px-4 py-2 rounded-md ml-4 xl:px-8 xl:py-4 hover:from-cyan-500 hover:to-red-400 hover:scale-110"
+        <Link className="bg-cyan-500 border-none px-4 py-2 rounded-md ml-4 xl:px-8 xl:py-4 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-red-400 hover:scale-110"
           href="/projects">
         Projects
         </Link>
