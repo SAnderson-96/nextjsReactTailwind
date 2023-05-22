@@ -9,7 +9,7 @@ export default function Technologies({technologies}) {
     return (
         <div
             className="flex flex-col text-center md:text-left xl:px-10
-          min-h-screen xl:space-y-0 mx-auto snap-top max-w-[1000px] bg-gradient-to-r from-zinc-700 to-zinc-900 rounded-3xl dark:bg-none">
+          min-h-screen xl:space-y-0 mx-auto snap-top max-w-[1000px] rounded-3xl dark:bg-none">
             <h3 className="tracking-[10px] text-yellow-400 text-4xl xl:text-6xl my-5 text-center xl:my-24">
                 Technologies Used
             </h3>
