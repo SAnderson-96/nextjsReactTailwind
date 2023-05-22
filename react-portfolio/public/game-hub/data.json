@@ -1,0 +1,32 @@
+{
+    "technologies":[
+        {
+            "name": "React",
+            "image": "/icons/react.svg"
+        },
+        {
+            "name": "Chakra UI",
+            "image": "/icons/chakra-ui.png"
+        },
+        {
+            "name": "Vite",
+            "image": "/icons/vite.png"
+        },
+        {
+            "name": "Nodejs",
+            "image": "/icons/nodeJs.png"
+        },
+        {
+            "name": "Vercel",
+            "image": "/icons/vercel.png"
+        },
+        {
+            "name": "TypeScript",
+            "image": "/icons/typescript.svg"
+        },
+        {
+            "name": "NPM",
+            "image": "/icons/npm.png"
+        }
+    ]
+}   

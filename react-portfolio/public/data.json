@@ -79,6 +79,49 @@
       "link": "/projects/dnd"
     },
     {
+      "name": "Game Hub",
+      "builtWith": [
+        {
+          "name": "React",
+          "path": "/icons/react.svg"
+        },
+        {
+          "name": "Chakra UI",
+          "path": "/icons/chakra-ui.png"
+        },
+        {
+          "name": "Vite",
+          "path": "/icons/vite.png"
+        },
+        {
+          "name": "Nodejs",
+          "path": "/icons/nodeJs.png"
+        },
+        {
+          "name": "Vercel",
+          "path": "/icons/vercel.png"
+        },
+        {
+          "name": "TypeScript",
+          "path": "/icons/typescript.svg"
+        },
+        {
+          "name": "NPM",
+          "path": "/icons/npm.png"
+        }
+      ],
+      "date": "May 2023",
+      "summaries": [
+        "RAWG.io clone",
+        "Filter games by genre, popularity, platform or any combination of them",
+        "Built with Vite and React, hosted on Vercel"
+      ],
+      "images": [
+        "/icons/controller.png"
+      ],
+      "link": "/projects/game-hub"
+    },
+    {
       "name": "Farming Android Application",
       "builtWith": [
         {
