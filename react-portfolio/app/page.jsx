@@ -22,7 +22,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <main className="px-10 no-scrollbar">
+      <main className="p-5 no-scrollbar">
         <section className="min-h-screen no-scrollbar">
           <div className="text-center p-5">
             <h2 className="text-6xl text-center py-2 text-red-400 font-bold">Samuel Anderson</h2>
