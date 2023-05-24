@@ -9,7 +9,7 @@ import Technologies from "@/components/technologies";
 export default function GameHub(){
     const data = require('../../../public/game-hub/data.json');
     return (
-      <Box marginX={16}>
+      <Box className="mx-5">
         <Box margin='auto' textAlign='center' marginY={2}>
           <Text size={24} color='white'>
             Click on Image to go to Website.
